@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Airbnbでお家、アパート、お部屋をシェアしよう</title>
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello Git World!</h1>
+    <!----------ここからheader------------->
+    <header>
+        <div class="header-wrapper row">
+            <ul class="nav col-6">
+                <li class="nav-item"> 
+                    <a class="nav-link text-dark" href="#">
+                        <i class="fab fa-airbnb"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu actived-page" href="#">概要</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#">準備</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#">安全</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#" tabindex="-1" aria-disabled="true">マネープラン</a>
+                </li>
+            </ul>
+                
+             <ul class="nav justify-content-end col-6">
+                <li class="nav-item">
+                    <p class="nav-link disable menu">
+                        予想月収
+                        <a href="#" class="far fa-question-circle"></a>
+                        <strong class="money">¥xxxxxxxxx</strong>
+                    </p>
+                </li>
+                 <li class="nav-item btn-wrapper">
+                    <button type="button" class="nav-link disable btn btn-danger text-white" tabindex="-1" aria-disabled="true">はじめる</button>
+                </li>
+            </ul>
+        </div>
+    </header><!--ここまでheader-->
+
+    <main><!--ここからmain-->
+        <div class="top-wrapper">
+            <div class="top-image row">
+                <img src="./image/go-pro-1478810_1920.jpg">
+                <div class="top-modal col-4">
+                    <div class="row">
+                        <h1 class="col-12"><strong>Airbnbホストになって、暮らしをレベルアップ</strong></h1>
+                        <p class="col-12">どれくらいの収入が見込めるかチェック</p>
+                        <p class="col-12">日本、東京都新宿区</p>
+                        <p class="col-7">まるまる貸切</p>
+                        <p class="col-5">ゲスト4人</p>
+                        <p class="col-12"><strong class="modal-money">¥ XXX,XXX</strong>
+                            月あたり<a href="#" class="far fa-question-circle"></a></p>
+                        <button type="solid" class="col-11 btn btn-lg btn-cpink text-white mx-auto"
+                        tabindex="-1" aria-disabled="true">
+                        はじめる
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <p>Hello World!</p>
+    </main><!--ここまでmain-->
+
+    <footer><!--ここからfooter-->
+
+    </footer><!--ここまでfooter-->
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
