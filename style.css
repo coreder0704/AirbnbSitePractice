@@ -121,4 +121,12 @@ main .top-message-wrapper .top-message .message p {
 main .middle-wrapper {
   background-color: #ffffff;
 }
+
+main .middle-wrapper .row .middle-top h2 {
+  font-weight: bold;
+}
+
+main .middle-wrapper .row .three-message h3 {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
