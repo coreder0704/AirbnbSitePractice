@@ -12,8 +12,9 @@
 }
 
 
-body {
+html, body {
     color: #484848;
+    /* background-color: #fff; */
 }
 .header-wrapper {
     height:82px;
@@ -103,5 +104,8 @@ main {
                 }
             }
         }
+    }
+    .middle-wrapper {
+        background-color: #ffffff;
     }
 }

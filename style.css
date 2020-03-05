@@ -6,8 +6,9 @@
 @import "functions";
 @import "variables";
 @import "mixins"; */
-body {
+html, body {
   color: #484848;
+  /* background-color: #fff; */
 }
 
 .header-wrapper {
@@ -115,5 +116,9 @@ main .top-message-wrapper .top-message .message p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
+}
+
+main .middle-wrapper {
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
