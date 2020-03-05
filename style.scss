@@ -1,10 +1,15 @@
-$theme-colors: (
+/* @import of bootstrap is compile error */
+/* $theme-colors: (
 	"cpink": #FF5A5F
 );
 
 @import "functions";
 @import "variables";
-@import "mixins";
+@import "mixins"; */
+
+@mixin extrusionPrevention {
+    overflow: hidden;
+}
 
 
 body {
@@ -53,9 +58,11 @@ main {
     .top-wrapper {
         .top-image {
             position: relative;
+            height: 600px;
             img {
                  max-width: 100%;
                 height: auto;
+                z-index: -1;
             }
             .top-modal {
                 background-color: #fff;
@@ -69,6 +76,30 @@ main {
                 }
                 button {
                     font-size: 16px;
+                }
+            }
+        }
+    }
+    .top-message-wrapper {
+        background-color: white;
+        @include extrusionPrevention();
+        width: 100%;
+        margin: auto;
+        .top-message {
+            max-width: 1080px;
+            margin: 65px 135.5px;
+            padding: 0 24px;
+            .message {
+                margin-right: 64px;
+                padding: 0;
+                h3 {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                p {
+                    margin: 16px 0;
+                    font-weight: 400 !important;
+                    line-height: 1.75em;
                 }
             }
         }

@@ -1,3 +1,11 @@
+/* @import of bootstrap is compile error */
+/* $theme-colors: (
+	"cpink": #FF5A5F
+);
+
+@import "functions";
+@import "variables";
+@import "mixins"; */
 body {
   color: #484848;
 }
@@ -54,11 +62,13 @@ body {
 
 main .top-wrapper .top-image {
   position: relative;
+  height: 600px;
 }
 
 main .top-wrapper .top-image img {
   max-width: 100%;
   height: auto;
+  z-index: -1;
 }
 
 main .top-wrapper .top-image .top-modal {
@@ -75,9 +85,35 @@ main .top-wrapper .top-image .top-modal h1, main .top-wrapper .top-image .top-mo
 }
 
 main .top-wrapper .top-image .top-modal button {
-  background-color: #FF5A5F;
   font-size: 16px;
-  border-radius: 5px;
-  display: block;
+}
+
+main .top-message-wrapper {
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
+
+main .top-message-wrapper .top-message {
+  max-width: 1080px;
+  margin: 65px 135.5px;
+  padding: 0 24px;
+}
+
+main .top-message-wrapper .top-message .message {
+  margin-right: 64px;
+  padding: 0;
+}
+
+main .top-message-wrapper .top-message .message h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main .top-message-wrapper .top-message .message p {
+  margin: 16px 0;
+  font-weight: 400 !important;
+  line-height: 1.75em;
 }
 /*# sourceMappingURL=style.css.map */
