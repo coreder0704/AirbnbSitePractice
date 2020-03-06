@@ -1,23 +1,15 @@
-<<<<<<< HEAD
-$theme-colors: (
-=======
 /* @import of bootstrap is compile error */
 /* $theme-colors: (
->>>>>>> developed
 	"cpink": #FF5A5F
 );
 
 @import "functions";
 @import "variables";
-<<<<<<< HEAD
-@import "mixins";
-=======
 @import "mixins"; */
 
 @mixin extrusionPrevention {
     overflow: hidden;
 }
->>>>>>> developed
 
 @mixin section-title {
     h2 {
@@ -76,17 +68,11 @@ main {
     .top-wrapper {
         .top-image {
             position: relative;
-<<<<<<< HEAD
-            img {
-                 max-width: 100%;
-                height: auto;
-=======
             height: 600px;
             img {
                  max-width: 100%;
                 height: auto;
                 z-index: -1;
->>>>>>> developed
             }
             .top-modal {
                 background-color: #fff;
