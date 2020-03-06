@@ -11,6 +11,15 @@
     overflow: hidden;
 }
 
+@mixin section-title {
+    h2 {
+        width: 100%;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
 
 html, body {
     color: #484848;
@@ -105,19 +114,23 @@ main {
             }
         }
     }
-    .middle-wrapper {
+    .section1 {
         background-color: #ffffff;
-        .row {
-            .middle-top {
-                h2 {
-                    font-weight: bold;
+        .middle-message {
+            .row {
+                .section-title {
+                   @include section-title();
                 }
-            }
-            .three-message {
-                h3 {
-                    font-weight: bold;
+                .three-message {
+                    h3 {
+                        font-weight: bold;
+                    }
                 }
             }
         }
+    }
+    
+    .section-title {
+        @include section-title();
     }
 }

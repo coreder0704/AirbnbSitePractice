@@ -118,15 +118,25 @@ main .top-message-wrapper .top-message .message p {
   line-height: 1.75em;
 }
 
-main .middle-wrapper {
+main .section1 {
   background-color: #ffffff;
 }
 
-main .middle-wrapper .row .middle-top h2 {
+main .section1 .middle-message .row .section-title h2 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main .section1 .middle-message .row .three-message h3 {
   font-weight: bold;
 }
 
-main .middle-wrapper .row .three-message h3 {
+main .section-title h2 {
+  width: 100%;
+  font-size: 60px;
   font-weight: bold;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
