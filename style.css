@@ -8,6 +8,7 @@
 @import "mixins"; */
 html, body {
   color: #484848;
+  max-width: 100%;
   /* background-color: #fff; */
 }
 
@@ -61,13 +62,19 @@ html, body {
   padding: 15px 0 12px 20px;
 }
 
+main {
+  /* ------------- end of .container-wrapper ------------- */
+}
+
 main .top-wrapper .top-image {
+  max-width: 100%;
   position: relative;
   height: 600px;
+  margin: 0;
 }
 
 main .top-wrapper .top-image img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   z-index: -1;
 }
@@ -89,54 +96,86 @@ main .top-wrapper .top-image .top-modal button {
   font-size: 16px;
 }
 
-main .top-message-wrapper {
+main .container-wrapper {
   background-color: white;
-  overflow: hidden;
   width: 100%;
   margin: auto;
+  /* end of .container */
 }
 
-main .top-message-wrapper .top-message {
+main .container-wrapper .container {
+  overflow: hidden;
+  max-width: 95% !important;
+}
+
+main .container-wrapper .container .top-message-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+main .container-wrapper .container .top-message-wrapper .top-message {
   max-width: 1080px;
-  margin: 65px 135.5px;
-  padding: 0 24px;
+  margin: 65px auto;
+  padding: 0 9px;
 }
 
-main .top-message-wrapper .top-message .message {
-  margin-right: 64px;
+main .container-wrapper .container .top-message-wrapper .top-message .message {
+  margin-right: 80px;
+  margin-left: 8px;
   padding: 0;
 }
 
-main .top-message-wrapper .top-message .message h3 {
+main .container-wrapper .container .top-message-wrapper .top-message .message h3 {
   font-size: 24px;
   font-weight: bold;
 }
 
-main .top-message-wrapper .top-message .message p {
+main .container-wrapper .container .top-message-wrapper .top-message .message p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .section1 {
+main .container-wrapper .container .section1 {
   background-color: #ffffff;
 }
 
-main .section1 .middle-message .row .section-title h2 {
+main .container-wrapper .container .section1 .middle-message .row .section-title h2 {
   width: 100%;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
 }
 
-main .section1 .middle-message .row .three-message h3 {
+main .container-wrapper .container .section1 .middle-message .row .three-message h3 {
   font-weight: bold;
 }
 
-main .section-title h2 {
+main .container-wrapper .container section {
+  overflow: hidden;
+  padding-top: 60px;
+  margin: 20px 0;
+}
+
+main .container-wrapper .container section .section-title h2 {
   width: 100%;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+}
+
+main .container-wrapper .container section .wrapper {
+  border: 2px solid black;
+  width: 1080px;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+}
+
+main .container-wrapper .container .section7 {
+  border: 2px solid black;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
