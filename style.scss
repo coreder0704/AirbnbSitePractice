@@ -19,9 +19,19 @@ $theme-colors: (
 }
 >>>>>>> developed
 
+@mixin section-title {
+    h2 {
+        width: 100%;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
 
-body {
+
+html, body {
     color: #484848;
+    /* background-color: #fff; */
 }
 .header-wrapper {
     height:82px;
@@ -119,6 +129,28 @@ main {
                 }
             }
         }
+    }
+<<<<<<< HEAD
+>>>>>>> developed
+=======
+    .section1 {
+        background-color: #ffffff;
+        .middle-message {
+            .row {
+                .section-title {
+                   @include section-title();
+                }
+                .three-message {
+                    h3 {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    
+    .section-title {
+        @include section-title();
     }
 >>>>>>> developed
 }

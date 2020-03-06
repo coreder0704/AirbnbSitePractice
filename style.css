@@ -8,9 +8,14 @@
 @import "functions";
 @import "variables";
 @import "mixins"; */
+<<<<<<< HEAD
 >>>>>>> developed
 body {
+=======
+html, body {
+>>>>>>> developed
   color: #484848;
+  /* background-color: #fff; */
 }
 
 .header-wrapper {
@@ -131,5 +136,27 @@ main .top-message-wrapper .top-message .message p {
   font-weight: 400 !important;
   line-height: 1.75em;
 >>>>>>> developed
+}
+
+main .section1 {
+  background-color: #ffffff;
+}
+
+main .section1 .middle-message .row .section-title h2 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main .section1 .middle-message .row .three-message h3 {
+  font-weight: bold;
+}
+
+main .section-title h2 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
