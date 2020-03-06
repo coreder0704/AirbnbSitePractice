@@ -23,6 +23,7 @@
 
 html, body {
     color: #484848;
+    max-width: 100%;
     /* background-color: #fff; */
 }
 .header-wrapper {
@@ -67,10 +68,12 @@ html, body {
 main {
     .top-wrapper {
         .top-image {
+            max-width: 100%;
             position: relative;
             height: 600px;
+            margin: 0;
             img {
-                 max-width: 100%;
+                width: 100%;
                 height: auto;
                 z-index: -1;
             }
@@ -91,48 +94,75 @@ main {
         }
     }
 
-    .top-message-wrapper {
+    .container-wrapper {
         background-color: white;
-        @include extrusionPrevention();
         width: 100%;
         margin: auto;
-        .top-message {
-            max-width: 1080px;
-            margin: 65px 135.5px;
-            padding: 0 24px;
-            .message {
-                margin-right: 64px;
-                padding: 0;
-                h3 {
-                    font-size: 24px;
-                    font-weight: bold;
-                }
-                p {
-                    margin: 16px 0;
-                    font-weight: 400 !important;
-                    line-height: 1.75em;
-                }
-            }
-        }
-    }
-
-    .section1 {
-        background-color: #ffffff;
-        .middle-message {
-            .row {
-                .section-title {
-                   @include section-title();
-                }
-                .three-message {
-                    h3 {
-                        font-weight: bold;
+        .container {
+            @include extrusionPrevention();
+            max-width: 95% !important;
+            .top-message-wrapper {
+                @include extrusionPrevention();
+                width: 100%;
+                .top-message {
+                    max-width: 1080px;
+                    margin: 65px auto;
+                    padding: 0 9px;
+                    .message {
+                        margin-right: 80px;
+                        margin-left: 8px;
+                        padding: 0;
+                        h3 {
+                            font-size: 24px;
+                            font-weight: bold;
+                        }
+                        p {
+                            margin: 16px 0;
+                            font-weight: 400 !important;
+                            line-height: 1.75em;
+                        }
                     }
                 }
             }
-        }
-    }
+            .section1 {
+                background-color: #ffffff;
+                .middle-message {
+                    .row {
+                        .section-title {
+                           @include section-title();
+                        }
+                        .three-message {
+                            h3 {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+            section {
+                @include extrusionPrevention();
+                padding-top: 60px;
+                margin: 20px 0;
+                .section-title {
+                   @include section-title();
+               }
+                .wrapper {
+                    border: 2px solid black;
+                    width: 1080px;
+                    margin: auto;
+                    padding: 40px;
+                    text-align: center;
+                }
+            }
+            
+            .section7 {
+                border: 2px solid black;
+                width: 100%;
+                margin: auto;
+                padding-top: 20px;
+            }
+        }/* end of .container */
+
+    }/* ------------- end of .container-wrapper ------------- */
     
-    .section-title {
-        @include section-title();
-    }
 }
