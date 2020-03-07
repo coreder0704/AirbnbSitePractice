@@ -7,8 +7,11 @@
 @import "variables";
 @import "mixins"; */
 
-@mixin link {
-    color: #008489;
+$link-color: #008489;
+$icon-color: #008489;
+
+@mixin checkborder {
+    border: 2px black solid;
 }
 
 @mixin extrusionPrevention {
@@ -192,7 +195,7 @@ main {
                                 @include description();
                             }
                             .link {
-                                @include link();
+                                color: $link-color;
                             }
                         }
                     }
@@ -256,17 +259,63 @@ main {
                 .section-title {
                    @include section-title();
                }
-                .wrapper {
-                    border: 2px solid black;
+                .contents-wrapper {
+                    /* @include checkborder(); */
                     width: 1080px;
                     margin: auto;
-                    padding: 40px;
-                    text-align: center;
+                    padding: 0 40px;
+                }
+            }
+
+            .section2 {
+                .contents-wrapper {
+                    .row {
+                        .col-6 {
+                            /* @include checkborder(); */
+                            .left-box {
+                                /* @include checkborder(); */
+                                width: 90%;
+                                margin: auto;
+                                padding-right: 20px;
+
+                                p {
+                                    @include description();
+                                }
+                                a {
+                                    color: $link-color;
+                                }
+                            }
+
+                            .right-box {
+                                /* @include checkborder(); */
+                                width: 90%;
+                                margin: auto;
+
+                                p {
+                                    @include description();
+                                    .fa-check {
+                                        color: $icon-color;
+                                        margin-right: 14px;
+                                    }
+                                }
+                            }
+                            
+                        }
+
+                        .col-12 {
+                            .image {
+                                padding-top: 100px;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
                 }
             }
             
             .section7 {
-                border: 2px solid black;
+                @include checkborder();
                 width: 100%;
                 margin: auto;
                 padding-top: 20px;

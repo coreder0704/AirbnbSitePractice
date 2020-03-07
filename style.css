@@ -302,16 +302,61 @@ main .container-wrapper .container section .section-title h2:after {
   /*線の丸み*/
 }
 
-main .container-wrapper .container section .wrapper {
-  border: 2px solid black;
+main .container-wrapper .container section .contents-wrapper {
+  /* @include checkborder(); */
   width: 1080px;
   margin: auto;
-  padding: 40px;
-  text-align: center;
+  padding: 0 40px;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-6 {
+  /* @include checkborder(); */
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-6 .left-box {
+  /* @include checkborder(); */
+  width: 90%;
+  margin: auto;
+  padding-right: 20px;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-6 .left-box p {
+  margin: 16px 0;
+  font-weight: 400 !important;
+  line-height: 1.75em;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-6 .left-box a {
+  color: #008489;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-6 .right-box {
+  /* @include checkborder(); */
+  width: 90%;
+  margin: auto;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-6 .right-box p {
+  margin: 16px 0;
+  font-weight: 400 !important;
+  line-height: 1.75em;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-6 .right-box p .fa-check {
+  color: #008489;
+  margin-right: 14px;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-12 .image {
+  padding-top: 100px;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-12 .image img {
+  width: 100%;
 }
 
 main .container-wrapper .container .section7 {
-  border: 2px solid black;
+  border: 2px black solid;
   width: 100%;
   margin: auto;
   padding-top: 20px;
