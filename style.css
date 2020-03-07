@@ -116,7 +116,7 @@ main .container-wrapper .container .top-message-wrapper {
 
 main .container-wrapper .container .top-message-wrapper .top-message {
   max-width: 1080px;
-  margin: 65px auto;
+  margin: 0 auto;
   padding: 0 9px;
 }
 
@@ -142,8 +142,8 @@ main .container-wrapper .container .section1 {
 }
 
 main .container-wrapper .container .section1 .middle-message {
-  max-width: 1040px;
-  margin: auto;
+  width: 1080px;
+  margin: 0 auto;
 }
 
 main .container-wrapper .container .section1 .middle-message .row .section-title h2 {
@@ -178,6 +178,10 @@ main .container-wrapper .container .section1 .middle-message .row .section-title
   /*線の丸み*/
 }
 
+main .container-wrapper .container .section1 .middle-message .row .three-message {
+  padding: 0 40px;
+}
+
 main .container-wrapper .container .section1 .middle-message .row .three-message .col-12 {
   margin: 20px 0;
   padding: 0;
@@ -188,16 +192,81 @@ main .container-wrapper .container .section1 .middle-message .row .three-message
 }
 
 main .container-wrapper .container .section1 .middle-message .row .three-message h3 {
+  font-size: 24px;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main .container-wrapper .container .section1 .middle-message .row .three-message p {
+  margin: 16px 0;
+  font-weight: 400 !important;
+  line-height: 1.75em;
 }
 
 main .container-wrapper .container .section1 .middle-message .row .three-message .link {
   color: #008489;
 }
 
+main .container-wrapper .container .section1 .dennis-wrapper {
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 150px;
+  /* .dennis-image:before {
+                        content: "";
+                        display: block;
+                        padding-top: 100%;
+                    } */
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-message {
+  margin-right: 60px;
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-message .icon .fa-quote-left {
+  color: orange;
+  font-size: 32px;
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-message .comment p {
+  font-size: 32px;
+  line-height: 40px !important;
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-message .dennis-description p {
+  color: #767676;
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-message .button {
+  padding: 10px 40px;
+  border: 2px #484848 solid;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-message a {
+  color: #484848;
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container-wrapper .container .section1 .dennis-wrapper .dennis-image img {
+  width: 100%;
+}
+
 main .container-wrapper .container section {
   overflow: hidden;
-  padding-top: 60px;
+  padding: 100px 0;
   margin: 20px 0;
 }
 
