@@ -109,13 +109,6 @@ main .container-wrapper {
 main .container-wrapper .container {
   overflow: hidden;
   max-width: 95% !important;
-  /* .secton5 {
-                
-            }
-
-            .secton6 {
-                
-            } */
 }
 
 main .container-wrapper .container .top-message-wrapper {
@@ -440,10 +433,6 @@ main .container-wrapper .container .section3 .contents-wrapper .row .col-6 .box 
   line-height: 40px !important;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-6 .box .dennis-description p {
-  color: #767676;
-}
-
 main .container-wrapper .container .section3 .contents-wrapper .row .col-6 .box .button {
   padding: 10px 40px;
   border: 2px #484848 solid;
@@ -490,6 +479,51 @@ main .container-wrapper .container .section4 .contents-wrapper .row .col-4 .box 
 }
 
 main .container-wrapper .container .section4 .contents-wrapper .row .col-4 .box a {
+  color: #008489;
+}
+
+main .container-wrapper .container .section5 .contents-wrapper .row {
+  /* end of .col-6 */
+}
+
+main .container-wrapper .container .section5 .contents-wrapper .row .col-6 {
+  margin: 0;
+  padding: 0;
+  /*@include checkborder();*/
+}
+
+main .container-wrapper .container .section5 .contents-wrapper .row .col-6 .box {
+  margin-right: 0 !important;
+  margin-left: 15% !important;
+  width: 90%;
+  margin: 0 20px;
+  /*@include checkborder();*/
+}
+
+main .container-wrapper .container .section5 .contents-wrapper .row .col-6 .box h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+main .container-wrapper .container .section5 .contents-wrapper .row .col-6 .box p {
+  margin: 16px 0;
+  font-weight: 400 !important;
+  line-height: 1.75em;
+}
+
+main .container-wrapper .container .section5 .contents-wrapper .row .col-6 .box a {
+  color: #008489;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .row .col-6 {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .row .col-6 a {
+  font-size: 18px;
   color: #008489;
 }
 
