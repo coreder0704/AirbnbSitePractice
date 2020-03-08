@@ -515,16 +515,48 @@ main .container-wrapper .container .section5 .contents-wrapper .row .col-6 .box 
   color: #008489;
 }
 
-main .container-wrapper .container .section6 .contents-wrapper .row .col-6 {
+main .container-wrapper .container .section6 .contents-wrapper .question-list .row .col-6 {
   width: 100%;
   margin: auto;
   padding: 20px;
   border-bottom: 1px solid #f3f3f3;
 }
 
-main .container-wrapper .container .section6 .contents-wrapper .row .col-6 a {
+main .container-wrapper .container .section6 .contents-wrapper .question-list .row .col-6 a {
   font-size: 18px;
   color: #008489;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .details {
+  padding-top: 100px;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .details .row .col-12 h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .details .row .col-4 img {
+  width: 100%;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .details .row .col-4 h3 {
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .details .row .col-4 p {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+  margin: 16px 0;
+  font-weight: 400 !important;
+  line-height: 1.75em;
+}
+
+main .container-wrapper .container .section6 .contents-wrapper .details .row .col-4 a {
+  color: #008489;
+  font-size: 14px;
 }
 
 main .container-wrapper .container .section7 {
