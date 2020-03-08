@@ -109,6 +109,13 @@ main .container-wrapper {
 main .container-wrapper .container {
   overflow: hidden;
   max-width: 95% !important;
+  /* .secton5 {
+                
+            }
+
+            .secton6 {
+                
+            } */
 }
 
 main .container-wrapper .container .top-message-wrapper {
@@ -447,6 +454,43 @@ main .container-wrapper .container .section3 .contents-wrapper .row .col-6 .box 
 
 main .container-wrapper .container .section3 .contents-wrapper .row .col-6 .box a {
   color: #484848;
+}
+
+main .container-wrapper .container .section4 .contents-wrapper .row {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  /* @include checkborder(); */
+}
+
+main .container-wrapper .container .section4 .contents-wrapper .row .col-4 {
+  /* @include row-inner(); */
+  margin: 0;
+  padding: 0;
+  /*@include checkborder();*/
+}
+
+main .container-wrapper .container .section4 .contents-wrapper .row .col-4 .box {
+  text-align: center;
+  width: 90%;
+  margin: 0 20px;
+  /*@include checkborder();*/
+}
+
+main .container-wrapper .container .section4 .contents-wrapper .row .col-4 .box h3 {
+  /* font-weight: bold; */
+  font-size: 60px;
+}
+
+main .container-wrapper .container .section4 .contents-wrapper .row .col-4 .box p {
+  margin: 16px 0;
+  font-weight: 400 !important;
+  line-height: 1.75em;
+}
+
+main .container-wrapper .container .section4 .contents-wrapper .row .col-4 .box a {
+  color: #008489;
 }
 
 main .container-wrapper .container .section7 {
