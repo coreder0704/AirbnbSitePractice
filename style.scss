@@ -65,11 +65,17 @@ $icon-color: #008489;
     margin-right: 60px;
 }
 
+@mixin row-inner {
+    width: 90%;
+    margin: 0 20px;
+}
+
 
 
 html, body {
     color: #484848;
     max-width: 100%;
+    overflow-x: hidden;
     /* background-color: #fff; */
 }
 .header-wrapper {
@@ -118,8 +124,9 @@ main {
             position: relative;
             height: 600px;
             margin: 0;
+            padding: 0;
             img {
-                width: 100%;
+                max-width: 100%;
                 height: auto;
                 z-index: -1;
             }
@@ -254,11 +261,11 @@ main {
             }
             section {
                 @include extrusionPrevention();
-                padding: 100px 0;
+                padding: 70px 0;
                 margin: 20px 0;
                 .section-title {
                    @include section-title();
-               }
+                }
                 .contents-wrapper {
                     /* @include checkborder(); */
                     width: 1080px;
@@ -313,6 +320,97 @@ main {
                     }
                 }
             }
+
+            .section3 {
+                .contents-wrapper {
+                    .row {
+                        @include extrusionPrevention();
+                        width: 100%;
+                        margin: 0 auto;
+                        padding: 70px 0;
+                        /*@include checkborder();*/
+
+                        .col-4 {
+                            /* @include row-inner(); */
+                            margin: 0;
+                            padding: 0;
+                            /*@include checkborder();*/
+                            .box {
+                                @include row-inner();
+                                /*@include checkborder();*/
+
+                                h3 {
+                                    font-weight: bold;
+                                    font-size: 24px;
+                                }
+
+                                p{
+                                    @include description();
+                                }
+
+                                a {
+                                    color: $link-color;
+                                }
+
+                            }
+                        }
+
+                        .col-6{
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            /* justify-content: center; */
+                            align-items: center;
+                            /*@include checkborder();*/
+
+                            .image {
+                                /*@include checkborder();*/
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+
+                            }
+
+                            .box {
+                                margin-right: 0 !important;
+                                margin-left: 15% !important;
+                                @include row-inner();
+                                /*@include checkborder();*/
+
+                                .icon {
+                                    .fa-quote-left {
+                                        color: orange;
+                                        font-size: 32px;
+                                    }
+                                }
+                                .comment {
+                                    p {
+                                        font-size: 32px;
+                                        line-height: 40px !important;
+                                    }
+                                }
+                                .dennis-description {
+                                    p {
+                                        color: #767676;
+                                    }
+                                }
+                                .button {
+                                    padding: 10px 40px;
+                                        border: 2px #484848 solid;
+                                        font-weight: bold;
+                                        display: inline-block;
+                                        border-radius: 5px;
+                                }
+                                a {
+                                   color: #484848;                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             
             .section7 {
                 @include checkborder();
@@ -325,13 +423,14 @@ main {
     }/* ------------- end of .container-wrapper ------------- */
     
 }
-        footer {
-            padding: 40px 0;
-            .footer-container {
-                max-width: 1080px !important;
-                margin: auto;
-            }
-        }
+
+footer {
+    padding: 40px 0;
+    .footer-container {
+        max-width: 1080px !important;
+        margin: auto;
+    }
+}
 
 .footer-title {
     h3 {
