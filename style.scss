@@ -391,11 +391,7 @@ main {
                                         line-height: 40px !important;
                                     }
                                 }
-                                .dennis-description {
-                                    p {
-                                        color: #767676;
-                                    }
-                                }
+                                
                                 .button {
                                     padding: 10px 40px;
                                         border: 2px #484848 solid;
@@ -450,13 +446,58 @@ main {
                 }
             }
 
-            /* .secton5 {
-                
+            .section5 {
+                .contents-wrapper {
+                    .row {
+
+                        .col-6 {
+                            margin: 0;
+                            padding: 0;
+                            
+                            /*@include checkborder();*/
+    
+                            .box {
+                                margin-right: 0 !important;
+                                margin-left: 15% !important;
+                                @include row-inner();
+                                /*@include checkborder();*/
+                                h3 {
+                                    font-weight: bold;
+                                    font-size: 24px;
+                                }
+
+                                p {
+                                    @include description();
+                                }
+
+                                a {
+                                    color: $link-color;
+                                }
+                                
+                            }
+                        }/* end of .col-6 */
+                    }
+                }
             }
 
-            .secton6 {
+           .section6 {
+               .contents-wrapper {
+                   .row {
+                       .col-6 {
+                           width: 100%;
+                           margin: auto;
+                           padding: 20px;
+                           border-bottom: 1px solid #f3f3f3;
+
+                           a {
+                               font-size: 18px;
+                               color: $icon-color;
+                           }
+                        }
+                   }
+               }
                 
-            } */
+            }
             
             .section7 {
                 @include checkborder();
