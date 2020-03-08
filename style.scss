@@ -482,19 +482,61 @@ main {
 
            .section6 {
                .contents-wrapper {
-                   .row {
-                       .col-6 {
-                           width: 100%;
-                           margin: auto;
-                           padding: 20px;
-                           border-bottom: 1px solid #f3f3f3;
-
-                           a {
-                               font-size: 18px;
-                               color: $icon-color;
-                           }
+                   .question-list{
+                       .row {
+                           .col-6 {
+                               width: 100%;
+                               margin: auto;
+                               padding: 20px;
+                               border-bottom: 1px solid #f3f3f3;
+    
+                               a {
+                                   font-size: 18px;
+                                   color: $icon-color;
+                               }
+                            }
                         }
-                   }
+
+                    }
+
+                    .details {
+                        padding-top: 100px;
+                        .row {
+                            .col-12 {
+                                h3 {
+                                    font-weight: bold;
+                                    font-size: 24px;
+                                }
+                            }
+    
+                            .col-4 {
+    
+                                img {
+                                    width: 100%;
+                                }
+    
+                                h3 {
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                    padding-top: 20px;
+                                }
+    
+                                p {
+                                    font-size: 14px;
+                                    margin-bottom: 0 !important;
+                                    @include description();
+                                }
+    
+                                a {
+                                    color: $link-color;
+                                    font-size: 14px;
+
+                                }
+                            }
+    
+                        }
+
+                    }
                }
                 
             }
