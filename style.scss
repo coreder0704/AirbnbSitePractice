@@ -637,14 +637,45 @@ footer {
 }
 
 .footer-bottom {
+    display: flex;
     border-top: 1px solid #f1f1f1;
     padding: 20px 0;
 
-    .text {
-        font-size: 14px;
-        ul {
-            li {
-                a {color: #767676;}
+    .col-6 {
+        padding: 0;
+
+        .box {
+            display: flex;
+
+            .icon {
+                font-size: 10px;
+                i {
+                    color: #767676;
+                    padding-left: 0;
+                    padding-right: 15px;
+                }
+            }
+        
+            .text {
+                font-size: 14px;
+                ul {
+                    li {
+                        a {color: #767676;}
+                    }
+                }
+            }
+        }
+
+        .three-icons {
+            display: flex;
+            justify-content: flex-end;
+
+            a {
+                margin-right: 20px;
+                i {
+                    color: #767676;
+                    font-size: 24px;
+                }
             }
         }
     }
