@@ -9,6 +9,7 @@
 
 $link-color: #008489;
 $icon-color: #008489;
+$header-z:10;
 
 @mixin checkborder {
     border: 2px black solid;
@@ -82,7 +83,9 @@ html, body {
 
 header {
     position: fixed;
-    z-index: 10;
+    z-index: $header-z;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #ffffff;
 }
@@ -126,7 +129,9 @@ header {
 }
 
 main {
+    @include extrusionPrevention();
     .top-wrapper {
+        margin-top: 80px;
         .top-image {
             max-width: 100%;
             position: relative;
