@@ -18,6 +18,8 @@ html, body {
 header {
   position: fixed;
   z-index: 10;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #ffffff;
 }
@@ -73,7 +75,12 @@ header {
 }
 
 main {
+  overflow: hidden;
   /* ------------- end of .container-wrapper ------------- */
+}
+
+main .top-wrapper {
+  margin-top: 80px;
 }
 
 main .top-wrapper .top-image {
