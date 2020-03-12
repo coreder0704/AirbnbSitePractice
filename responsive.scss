@@ -10,7 +10,35 @@
 }/* ----------End of tablet size------------ */
 
 /* ----------Start of labtop size------------ */
-@media(max-width:1024px) {
+@media(max-width:1127px) {
+    .responsive-header {
+        display: block;
+        position: fixed;
+        top: 30px;
+        left: 15px;
+        i {
+            color: #ffffff;
+            font-size: 40px;
+        }
+    }
+
+    header{
+        display: none;
+    }
+
+    main {
+        .top-wrapper {
+            margin: 0 auto;
+            width: 100%;
+            .top-image {
+                width: 100%;
+                height: auto;
+                /* img {
+
+                } */
+            }
+        }
+    }
 
 }/* ----------End of laptop size------------ */
 
