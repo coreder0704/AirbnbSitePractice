@@ -136,8 +136,7 @@ main {
     @include extrusionPrevention();
     .top-wrapper {
         margin: auto;
-        margin-top: 80px;
-        width: $max-width;
+        width: 100%;
         .top-image {
             width: 100%;
             position: relative;
@@ -150,12 +149,18 @@ main {
                 z-index: -1;
             }
             .top-modal {
+                width: 460px;
                 background-color: #fff;
-                position: absolute;
-                top: 10%;
-                left: 60%;
                 padding: 24px;
+                margin: 70px 80px auto auto;
                 border-radius: 5px;
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                
                 h1, .modal-money {
                     font-size: 40px;
                 }
