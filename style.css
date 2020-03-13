@@ -105,9 +105,10 @@ main .top-wrapper .top-image img {
 
 main .top-wrapper .top-image .top-modal {
   width: 460px;
+  height: auto;
   background-color: #fff;
   padding: 24px;
-  margin: 70px 80px auto auto;
+  margin: 70px 80px 80px auto;
   border-radius: 5px;
   position: absolute;
   top: 0;
