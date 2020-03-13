@@ -143,23 +143,28 @@ main .container-wrapper .container .top-message-wrapper {
 }
 
 main .container-wrapper .container .top-message-wrapper .top-message {
+  overflow: hidden;
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 9px;
 }
 
-main .container-wrapper .container .top-message-wrapper .top-message .message {
+main .container-wrapper .container .top-message-wrapper .top-message .row {
+  width: 1080px;
+}
+
+main .container-wrapper .container .top-message-wrapper .top-message .row .message {
   margin-right: 80px;
   margin-left: 8px;
   padding: 0;
 }
 
-main .container-wrapper .container .top-message-wrapper .top-message .message h3 {
+main .container-wrapper .container .top-message-wrapper .top-message .row .message h3 {
   font-size: 24px;
   font-weight: bold;
 }
 
-main .container-wrapper .container .top-message-wrapper .top-message .message p {
+main .container-wrapper .container .top-message-wrapper .top-message .row .message p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
