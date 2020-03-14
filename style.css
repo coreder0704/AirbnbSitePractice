@@ -16,8 +16,8 @@ html, body {
   /* ul tag normal setting */
 }
 
-.responsive-heaser {
-  display: none;
+body {
+  margin-top: 70px;
 }
 
 header {
@@ -90,17 +90,24 @@ main .top-wrapper {
 }
 
 main .top-wrapper .top-image {
-  width: 100%;
   position: relative;
-  height: 600px;
   margin: 0;
   padding: 0;
 }
 
-main .top-wrapper .top-image img {
+main .top-wrapper .top-image .img {
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+}
+
+main .top-wrapper .top-image .img img {
   width: 100%;
   height: auto;
-  z-index: -1;
+}
+
+main .top-wrapper .top-image .responsive-header {
+  display: none;
 }
 
 main .top-wrapper .top-image .top-modal {

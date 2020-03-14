@@ -4,15 +4,8 @@
 /* ----------End of tablet size------------ */
 /* ----------Start of labtop size------------ */
 @media (max-width: 1127px) {
-  .responsive-header {
-    display: block;
-    position: fixed;
-    top: 30px;
-    left: 15px;
-  }
-  .responsive-header i {
-    color: #ffffff;
-    font-size: 40px;
+  body {
+    margin: 0;
   }
   header {
     display: none;
@@ -20,13 +13,53 @@
   main .top-wrapper {
     margin: 0 auto;
     width: 100%;
+    height: auto;
   }
   main .top-wrapper .top-image {
     width: 100%;
     height: auto;
-    /* img {
-
-                } */
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  main .top-wrapper .top-image .img {
+    height: 300px;
+  }
+  main .top-wrapper .top-image .responsive-header {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+  }
+  main .top-wrapper .top-image .responsive-header i {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  main .top-wrapper .top-image .top-modal {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: transparent;
+  }
+  main .top-wrapper .top-image .top-modal .row {
+    margin-bottom: 0;
+  }
+  main .top-wrapper .top-image .top-modal .row .title {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  main .top-wrapper .top-image .top-modal .row .title h1 {
+    color: #ffffff;
+  }
+  main .top-wrapper .top-image .top-modal .row .box {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+  }
+  main .top-wrapper .top-image .top-modal .row .box .item {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
   }
 }
 

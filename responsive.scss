@@ -11,16 +11,10 @@
 
 /* ----------Start of labtop size------------ */
 @media(max-width:1127px) {
-    .responsive-header {
-        display: block;
-        position: fixed;
-        top: 30px;
-        left: 15px;
-        i {
-            color: #ffffff;
-            font-size: 40px;
-        }
+    body {
+        margin: 0;
     }
+    
 
     header{
         display: none;
@@ -30,12 +24,60 @@
         .top-wrapper {
             margin: 0 auto;
             width: 100%;
+            height: auto;
+
             .top-image {
                 width: 100%;
                 height: auto;
-                /* img {
+                background-color: rgba($color: #000000, $alpha: 0.1);
 
-                } */
+                .img {
+                    height: 300px;
+                }
+
+                .responsive-header {
+                    display: block;
+                    position: absolute;
+                    top: 30px;
+                    left: 15px;
+                    i {
+                        color: #ffffff;
+                        font-size: 40px;
+                    }
+                }
+                
+                .top-modal {
+                    position: static;
+                    width: 100%;
+                    height: auto;
+                    margin: 0 auto;
+                    padding: 0;
+                    background-color: transparent;
+
+
+                    .row {
+                        margin-bottom: 0;
+                        .title {
+                            margin: 0 auto;
+                            padding-bottom: 20px;
+
+                            h1 {
+                                color: #ffffff;
+                            }
+                        }
+                        .box { 
+                            width: 100%;
+                            padding: 15px;
+                            background-color: #fff;
+
+                            .item {
+                                margin: 0 auto;
+                                width: 70%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
