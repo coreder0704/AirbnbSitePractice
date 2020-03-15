@@ -189,31 +189,37 @@ main {
         .container {
             @include extrusionPrevention();
             max-width: 95% !important;
-            .top-message-wrapper {
-                @include extrusionPrevention();
-                width: 100%;
-                .top-message {
+
+            section {
+
+                .top-message-wrapper {
                     @include extrusionPrevention();
-                    max-width: 1080px;
-                    margin: 0 auto;
-                    padding: 0 9px;
-                    .row {
-                        width: 1080px;
-                        .message {
-                            margin-right: 80px;
-                            margin-left: 8px;
-                            padding: 0;
-                            h3 {
-                                font-size: 24px;
-                                font-weight: bold;
+                    width: 100%;
+                    .top-message {
+                        @include extrusionPrevention();
+                        max-width: 1080px;
+                        margin: 0 auto;
+                        padding: 0 9px;
+                        .row {
+                            .message {
+                                width: 534px;
+                                padding-right: 80px;
+                                padding-left: 8px;
+                                padding-bottom: 40px;
+                                margin: 0 auto;
+                                h3 {
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                }
+                                p {
+                                    @include description();
+                                }
                             }
-                            p {
-                                @include description();
-                            }
-                    }
+                        }
                     }
                 }
             }
+
             .section1 {
                 background-color: #ffffff;
                 .middle-message {

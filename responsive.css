@@ -61,6 +61,21 @@
     width: 70%;
     height: auto;
   }
+  main .container-wrapper .container section .top-message-wrapper .top-message .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .top-message-wrapper .top-message .row .message {
+    width: 536px;
+    padding-bottom: 40px;
+  }
 }
 
 /* ----------End of laptop size------------ */

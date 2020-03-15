@@ -80,6 +80,31 @@
                 }
             }
         }
+
+        .container-wrapper {
+            .container {
+    
+                section {
+    
+                    .top-message-wrapper {
+                       
+                        .top-message {
+                            
+                            .row {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                .message {
+                                    width: 536px;
+                                    padding-bottom: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
 }/* ----------End of laptop size------------ */
