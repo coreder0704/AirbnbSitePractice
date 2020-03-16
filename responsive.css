@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ----------Start of mobile-L size------------ */
 /* ----------End of mobile-L size------------ */
 /* ----------Start of tablet size------------ */
@@ -10,30 +11,33 @@
   header {
     display: none;
   }
-  main .top-wrapper {
+  main {
+    /* -----------End of container-wrapper-------------- */
+  }
+  main section .top-wrapper {
     margin: 0 auto;
     width: 100%;
     height: auto;
   }
-  main .top-wrapper .top-image {
+  main section .top-wrapper .top-image {
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.1);
   }
-  main .top-wrapper .top-image .img {
-    height: 300px;
+  main section .top-wrapper .top-image .img {
+    height: 200px;
   }
-  main .top-wrapper .top-image .responsive-header {
+  main section .top-wrapper .top-image .responsive-header {
     display: block;
     position: absolute;
     top: 30px;
     left: 15px;
   }
-  main .top-wrapper .top-image .responsive-header i {
+  main section .top-wrapper .top-image .responsive-header i {
     color: #ffffff;
     font-size: 40px;
   }
-  main .top-wrapper .top-image .top-modal {
+  main section .top-wrapper .top-image .top-modal {
     position: static;
     width: 100%;
     height: auto;
@@ -41,25 +45,31 @@
     padding: 0;
     background-color: transparent;
   }
-  main .top-wrapper .top-image .top-modal .row {
+  main section .top-wrapper .top-image .top-modal .row {
     margin-bottom: 0;
   }
-  main .top-wrapper .top-image .top-modal .row .title {
+  main section .top-wrapper .top-image .top-modal .row .title {
     margin: 0 auto;
     padding-bottom: 20px;
   }
-  main .top-wrapper .top-image .top-modal .row .title h1 {
+  main section .top-wrapper .top-image .top-modal .row .title h1 {
     color: #ffffff;
   }
-  main .top-wrapper .top-image .top-modal .row .box {
+  main section .top-wrapper .top-image .top-modal .row .box {
     width: 100%;
     padding: 15px;
     background-color: #fff;
   }
-  main .top-wrapper .top-image .top-modal .row .box .item {
+  main section .top-wrapper .top-image .top-modal .row .box .item {
     margin: 0 auto;
     width: 70%;
     height: auto;
+  }
+  main .container-wrapper {
+    /* ------------End of container------------- */
+  }
+  main .container-wrapper .container {
+    /* --------End of section---------- */
   }
   main .container-wrapper .container section .top-message-wrapper .top-message .row {
     display: -webkit-box;
@@ -76,6 +86,63 @@
     width: 536px;
     padding-bottom: 40px;
   }
+  main .container-wrapper .container section {
+    padding: 16px 0 0 0;
+  }
+  main .container-wrapper .container section .section1 .middle-message {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title h2 {
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* over line code */
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title h2:after {
+    /* over line code */
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    /*線の上下位置*/
+    display: inline-block;
+    width: 80px;
+    /*線の長さ*/
+    height: 2px;
+    /*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /*位置調整*/
+    background-color: gray;
+    /*線の色*/
+    border-radius: 2px;
+    /*線の丸み*/
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message .box {
+    width: 536px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  /* ----------- End of main ------------ */
 }
 
 /* ----------End of laptop size------------ */

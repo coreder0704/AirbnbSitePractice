@@ -197,7 +197,7 @@ main .container-wrapper .container .section1 .middle-message .row .section-title
 
 main .container-wrapper .container .section1 .middle-message .row .section-title h2:after {
   /* over line code */
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: -15px;
@@ -220,28 +220,28 @@ main .container-wrapper .container .section1 .middle-message .row .three-message
   padding: 0 40px;
 }
 
-main .container-wrapper .container .section1 .middle-message .row .three-message .col-lg-12 {
+main .container-wrapper .container .section1 .middle-message .row .three-message .box .col-lg-12 {
   margin: 20px 0;
   padding: 0;
 }
 
-main .container-wrapper .container .section1 .middle-message .row .three-message .col-lg-12 .fa-check-circle {
+main .container-wrapper .container .section1 .middle-message .row .three-message .box .col-lg-12 .fa-check-circle {
   font-size: 50px;
 }
 
-main .container-wrapper .container .section1 .middle-message .row .three-message h3 {
+main .container-wrapper .container .section1 .middle-message .row .three-message .box h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-main .container-wrapper .container .section1 .middle-message .row .three-message p {
+main .container-wrapper .container .section1 .middle-message .row .three-message .box p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .container-wrapper .container .section1 .middle-message .row .three-message .link {
+main .container-wrapper .container .section1 .middle-message .row .three-message .box .link {
   color: #008489;
 }
 
@@ -321,7 +321,7 @@ main .container-wrapper .container section .section-title h2 {
 
 main .container-wrapper .container section .section-title h2:after {
   /* over line code */
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: -15px;

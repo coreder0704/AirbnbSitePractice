@@ -1,3 +1,6 @@
+@import "mixins";
+
+
 /* ----------Start of mobile-L size------------ */
 @media(max-width:425px) {
 
@@ -21,73 +24,76 @@
     }
 
     main {
-        .top-wrapper {
-            margin: 0 auto;
-            width: 100%;
-            height: auto;
+        section {
 
-            .top-image {
+            .top-wrapper {
+                margin: 0 auto;
                 width: 100%;
                 height: auto;
-                background-color: rgba($color: #000000, $alpha: 0.1);
-
-                .img {
-                    height: 300px;
-                }
-
-                .responsive-header {
-                    display: block;
-                    position: absolute;
-                    top: 30px;
-                    left: 15px;
-                    i {
-                        color: #ffffff;
-                        font-size: 40px;
-                    }
-                }
-                
-                .top-modal {
-                    position: static;
+    
+                .top-image {
                     width: 100%;
                     height: auto;
-                    margin: 0 auto;
-                    padding: 0;
-                    background-color: transparent;
-
-
-                    .row {
-                        margin-bottom: 0;
-                        .title {
-                            margin: 0 auto;
-                            padding-bottom: 20px;
-
-                            h1 {
-                                color: #ffffff;
-                            }
+                    background-color: rgba($color: #000000, $alpha: 0.1);
+    
+                    .img {
+                        height: 200px;
+                    }
+    
+                    .responsive-header {
+                        display: block;
+                        position: absolute;
+                        top: 30px;
+                        left: 15px;
+                        i {
+                            color: #ffffff;
+                            font-size: 40px;
                         }
-                        .box { 
-                            width: 100%;
-                            padding: 15px;
-                            background-color: #fff;
-
-                            .item {
+                    }
+                    
+                    .top-modal {
+                        position: static;
+                        width: 100%;
+                        height: auto;
+                        margin: 0 auto;
+                        padding: 0;
+                        background-color: transparent;
+    
+    
+                        .row {
+                            margin-bottom: 0;
+                            .title {
                                 margin: 0 auto;
-                                width: 70%;
-                                height: auto;
+                                padding-bottom: 20px;
+    
+                                h1 {
+                                    color: #ffffff;
+                                }
+                            }
+                            .box { 
+                                width: 100%;
+                                padding: 15px;
+                                background-color: #fff;
+    
+                                .item {
+                                    margin: 0 auto;
+                                    width: 70%;
+                                    height: auto;
+                                }
                             }
                         }
                     }
                 }
             }
+    
         }
-
         .container-wrapper {
             .container {
     
                 section {
     
                     .top-message-wrapper {
-                       
+                        
                         .top-message {
                             
                             .row {
@@ -102,10 +108,43 @@
                             }
                         }
                     }
+                }/* --------End of section---------- */
+
+                section {
+                    @include section-spacing(16px 0 0 0);
                 }
-            }
-        }
-    }
+
+                section{
+                    .section1 {
+                        .middle-message {
+                            width: 100%;
+                            .row {
+                                width: 100%;
+
+                                .section-title {
+                                    @include section-title(40px);
+                                }
+
+                                .three-message {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                
+                                    .box {
+                                        width: 536px;
+                                        margin: 0 auto;
+                                        padding-bottom: 40px;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }/* ------------End of container------------- */
+        }/* -----------End of container-wrapper-------------- */
+    }/* ----------- End of main ------------ */
 
 }/* ----------End of laptop size------------ */
 
