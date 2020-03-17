@@ -348,40 +348,54 @@ main .container-wrapper .container section .contents-wrapper {
   padding: 0 40px;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg {
+main .container-wrapper .container .section2 .contents-wrapper .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container-wrapper .container .section2 .contents-wrapper .row .col-xl {
+  width: 648px;
+  margin-bottom: 20px;
   /* @include checkborder(); */
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .left-box {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-xl .left-box {
   /* @include checkborder(); */
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding-right: 20px;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .left-box p {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-xl .left-box p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .left-box a {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-xl .left-box a {
   color: #008489;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .right-box {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-xl .right-box {
   /* @include checkborder(); */
   width: 90%;
   margin: auto;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .right-box p {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-xl .right-box p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .right-box p .fa-check {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-xl .right-box p .fa-check {
   color: #008489;
   margin-right: 14px;
 }

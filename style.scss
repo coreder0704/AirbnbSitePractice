@@ -265,11 +265,17 @@ main {
             .section2 {
                 .contents-wrapper {
                     .row {
-                        .col-lg {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .col-xl {
+                            width: 648px;
+                            margin-bottom: 20px;
                             /* @include checkborder(); */
                             .left-box {
                                 /* @include checkborder(); */
-                                width: 90%;
+                                width: 100%;
                                 margin: auto;
                                 padding-right: 20px;
 
