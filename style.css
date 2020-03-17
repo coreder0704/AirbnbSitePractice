@@ -249,6 +249,7 @@ main .container-wrapper .container .section1 .dennis-wrapper {
   width: 1080px;
   margin: 0 auto;
   padding-top: 150px;
+  padding-bottom: 0;
   /* .dennis-image:before {
                         content: "";
                         display: block;
@@ -347,40 +348,40 @@ main .container-wrapper .container section .contents-wrapper {
   padding: 0 40px;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-6 {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-lg {
   /* @include checkborder(); */
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-6 .left-box {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .left-box {
   /* @include checkborder(); */
   width: 90%;
   margin: auto;
   padding-right: 20px;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-6 .left-box p {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .left-box p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-6 .left-box a {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .left-box a {
   color: #008489;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-6 .right-box {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .right-box {
   /* @include checkborder(); */
   width: 90%;
   margin: auto;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-6 .right-box p {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .right-box p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-6 .right-box p .fa-check {
+main .container-wrapper .container .section2 .contents-wrapper .row .col-lg .right-box p .fa-check {
   color: #008489;
   margin-right: 14px;
 }

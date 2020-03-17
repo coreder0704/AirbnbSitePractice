@@ -88,6 +88,43 @@
   }
   main .container-wrapper .container section {
     padding: 16px 0 0 0;
+    overflow: hidden;
+    padding: 30px 0;
+    margin: 20px 0;
+  }
+  main .container-wrapper .container section .section-title h2 {
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* over line code */
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  main .container-wrapper .container section .section-title h2:after {
+    /* over line code */
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    /*線の上下位置*/
+    display: inline-block;
+    width: 80px;
+    /*線の長さ*/
+    height: 2px;
+    /*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /*位置調整*/
+    background-color: gray;
+    /*線の色*/
+    border-radius: 2px;
+    /*線の丸み*/
+  }
+  main .container-wrapper .container section .contents-wrapper {
+    margin: auto;
+    padding: 0 40px;
   }
   main .container-wrapper .container section .section1 .middle-message {
     width: 100%;
@@ -141,6 +178,96 @@
     width: 536px;
     margin: 0 auto;
     padding-bottom: 40px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    margin-right: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message {
+    width: 272px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .icon .fa-quote-left {
+    font-size: 18px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .comment p {
+    font-size: 18px;
+    line-height: 1.44444em !important;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .dennis-description p {
+    font-size: 14px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .button {
+    padding: 10px 20px;
+    border: 2px #484848 solid;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image {
+    width: 324px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image img {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg {
+    width: 648px;
+    padding: 0;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg .left-box {
+    width: 100%;
+    margin: 0;
+    padding-right: 0px;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg .right-box {
+    padding-top: 20px;
+    width: 100%;
+    margin: 0;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg-12 .image {
+    padding-top: 70px;
+    width: 648px;
+    margin: 0 auto;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg-12 .image img {
+    width: 100%;
   }
   /* ----------- End of main ------------ */
 }

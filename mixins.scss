@@ -48,8 +48,9 @@ $max-width:1440px;
     }
 }
 
-@mixin subsection-spacing {
-    padding-top: 150px;
+@mixin subsection-spacing($pt, $pb) {
+    padding-top: $pt;
+    padding-bottom: $pb;
 }
 
 @mixin description {

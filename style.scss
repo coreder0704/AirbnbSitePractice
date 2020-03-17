@@ -197,7 +197,7 @@ main {
 
                 .dennis-wrapper {
                     @include wrapper-size();
-                    @include subsection-spacing();
+                    @include subsection-spacing(150px,0);
 
                     .dennis-message {
                         @include col-lg-6();
@@ -265,7 +265,7 @@ main {
             .section2 {
                 .contents-wrapper {
                     .row {
-                        .col-lg-6 {
+                        .col-lg {
                             /* @include checkborder(); */
                             .left-box {
                                 /* @include checkborder(); */
