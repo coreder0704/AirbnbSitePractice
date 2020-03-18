@@ -248,7 +248,68 @@
                         }
                     }
 
+                    .section3 {
+                        .contents-wrapper {
+                            width: 100%;
+                            .row {
+        
+                                .col-xl-4 {
+                                    margin: 0 auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
 
+                                    .box {
+                                        width: 536px;
+                                    }
+                                }
+        
+                            }
+
+                            #section3-image {
+                                width: 700px;
+
+                                .col-6{
+        
+                                    .image {
+        
+                                        img {
+                                            width: 100%;
+                                            height: auto;
+                                        }
+        
+                                    }
+        
+                                    .box {
+        
+                                        .icon {
+                                            .fa-quote-left {
+                                                font-size: 18px;
+                                            }
+                                        }
+                                        .comment {
+                                            p {
+                                                font-size: 18px;
+                                                line-height: 1.4444em !important;
+                                            }
+                                        }
+
+                                        .dennis-description {
+                                            p {
+                                                font-size: 14px;
+                                            }
+                                        }
+                                        
+                                        .button {
+                                            padding: 10px 20px;
+                                        }
+                                        
+                                    }
+                                }
+
+                            }/* -----------#section3-image------------- */
+                        }
+                    }
                 }
 
 

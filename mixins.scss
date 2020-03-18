@@ -63,7 +63,7 @@ $max-width:1440px;
     margin-right: 60px;
 }
 
-@mixin row-inner {
-    width: 90%;
+@mixin row-inner ($width) {
+    width: $width;
     margin: 0 20px;
 }

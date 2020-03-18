@@ -408,43 +408,58 @@ main .container-wrapper .container .section2 .contents-wrapper .row .col-lg-12 .
   width: 100%;
 }
 
+main .container-wrapper .container .section3 .contents-wrapper {
+  /* -----------#section3-image------------ */
+}
+
 main .container-wrapper .container .section3 .contents-wrapper .row {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  padding: 70px 0;
-  /*@include checkborder();*/
-}
-
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-4 {
-  /* @include row-inner(); */
-  margin: 0;
   padding: 0;
+  margin-bottom: 40px;
   /*@include checkborder();*/
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-4 .box {
-  width: 90%;
+main .container-wrapper .container .section3 .contents-wrapper .row .col-xl-4 {
+  margin: 0;
+  margin-bottom: 30px !important;
+  padding: 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /*@include checkborder();*/
+}
+
+main .container-wrapper .container .section3 .contents-wrapper .row .col-xl-4 .box {
+  width: 536px;
   margin: 0 20px;
   /*@include checkborder();*/
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-4 .box h3 {
+main .container-wrapper .container .section3 .contents-wrapper .row .col-xl-4 .box h3 {
   font-weight: bold;
   font-size: 24px;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-4 .box p {
+main .container-wrapper .container .section3 .contents-wrapper .row .col-xl-4 .box p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-4 .box a {
+main .container-wrapper .container .section3 .contents-wrapper .row .col-xl-4 .box a {
   color: #008489;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -457,16 +472,16 @@ main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 {
   /*@include checkborder();*/
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .image {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 .image {
   /*@include checkborder();*/
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .image img {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 .image img {
   width: 100%;
   height: auto;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .box {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 .box {
   margin-right: 0 !important;
   margin-left: 15% !important;
   width: 90%;
@@ -474,17 +489,17 @@ main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .b
   /*@include checkborder();*/
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .box .icon .fa-quote-left {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 .box .icon .fa-quote-left {
   color: orange;
   font-size: 32px;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .box .comment p {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 .box .comment p {
   font-size: 32px;
   line-height: 40px !important;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .box .button {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 .box .button {
   padding: 10px 40px;
   border: 2px #484848 solid;
   font-weight: bold;
@@ -492,7 +507,7 @@ main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .b
   border-radius: 5px;
 }
 
-main .container-wrapper .container .section3 .contents-wrapper .row .col-lg-6 .box a {
+main .container-wrapper .container .section3 .contents-wrapper #section3-image .col-6 .box a {
   color: #484848;
 }
 

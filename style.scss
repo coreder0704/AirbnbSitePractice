@@ -321,16 +321,21 @@ main {
                         @include extrusionPrevention();
                         width: 100%;
                         margin: 0 auto;
-                        padding: 70px 0;
+                        padding: 0;
+                        margin-bottom: 40px;
                         /*@include checkborder();*/
 
-                        .col-lg-4 {
-                            /* @include row-inner(); */
+                        .col-xl-4 {
                             margin: 0;
+                            margin-bottom: 30px !important;
                             padding: 0;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-start;
                             /*@include checkborder();*/
                             .box {
-                                @include row-inner();
+                                @include row-inner(536px);
                                 /*@include checkborder();*/
 
                                 h3 {
@@ -349,30 +354,34 @@ main {
                             }
                         }
 
-                        .col-lg-6{
+                    }
+
+                    #section3-image {
+
+                        .col-6{
                             margin: 0;
                             padding: 0;
                             display: flex;
                             /* justify-content: center; */
                             align-items: center;
                             /*@include checkborder();*/
-
+    
                             .image {
                                 /*@include checkborder();*/
-
+    
                                 img {
                                     width: 100%;
                                     height: auto;
                                 }
-
+    
                             }
-
+    
                             .box {
                                 margin-right: 0 !important;
                                 margin-left: 15% !important;
-                                @include row-inner();
+                                @include row-inner(90%);
                                 /*@include checkborder();*/
-
+    
                                 .icon {
                                     .fa-quote-left {
                                         color: orange;
@@ -398,7 +407,8 @@ main {
                                 }
                             }
                         }
-                    }
+
+                    }/* -----------#section3-image------------ */
                 }
             }
 
@@ -418,7 +428,7 @@ main {
                             /*@include checkborder();*/
                             .box {
                                 text-align: center;
-                                @include row-inner();
+                                @include row-inner(90%);
                                 /*@include checkborder();*/
 
                                 h3 {
@@ -453,7 +463,7 @@ main {
                             .box {
                                 margin-right: 0 !important;
                                 margin-left: 15% !important;
-                                @include row-inner();
+                                @include row-inner(90%);
                                 /*@include checkborder();*/
                                 h3 {
                                     font-weight: bold;

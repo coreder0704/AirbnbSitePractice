@@ -270,6 +270,45 @@
   main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg-12 .image img {
     width: 100%;
   }
+  main .container-wrapper .container section .section3 .contents-wrapper {
+    width: 100%;
+    /* -----------#section3-image------------- */
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 .box {
+    width: 536px;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image {
+    width: 700px;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .image img {
+    width: 100%;
+    height: auto;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .icon .fa-quote-left {
+    font-size: 18px;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .comment p {
+    font-size: 18px;
+    line-height: 1.4444em !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .dennis-description p {
+    font-size: 14px;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .button {
+    padding: 10px 20px;
+  }
   /* ----------- End of main ------------ */
 }
 
