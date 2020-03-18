@@ -309,6 +309,19 @@
   main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .button {
     padding: 10px 20px;
   }
+  main .container-wrapper .container section .section4 .contents-wrapper {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 .box h3 {
+    font-size: 40px;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 .box p {
+    font-size: 14px;
+  }
   /* ----------- End of main ------------ */
 }
 

@@ -519,32 +519,32 @@ main .container-wrapper .container .section4 .contents-wrapper .row {
   /* @include checkborder(); */
 }
 
-main .container-wrapper .container .section4 .contents-wrapper .row .col-lg-4 {
+main .container-wrapper .container .section4 .contents-wrapper .row .col-md-4 {
   /* @include row-inner(); */
   margin: 0;
   padding: 0;
   /*@include checkborder();*/
 }
 
-main .container-wrapper .container .section4 .contents-wrapper .row .col-lg-4 .box {
+main .container-wrapper .container .section4 .contents-wrapper .row .col-md-4 .box {
   text-align: center;
   width: 90%;
   margin: 0 20px;
   /*@include checkborder();*/
 }
 
-main .container-wrapper .container .section4 .contents-wrapper .row .col-lg-4 .box h3 {
+main .container-wrapper .container .section4 .contents-wrapper .row .col-md-4 .box h3 {
   /* font-weight: bold; */
   font-size: 60px;
 }
 
-main .container-wrapper .container .section4 .contents-wrapper .row .col-lg-4 .box p {
+main .container-wrapper .container .section4 .contents-wrapper .row .col-md-4 .box p {
   margin: 16px 0;
   font-weight: 400 !important;
   line-height: 1.75em;
 }
 
-main .container-wrapper .container .section4 .contents-wrapper .row .col-lg-4 .box a {
+main .container-wrapper .container .section4 .contents-wrapper .row .col-md-4 .box a {
   color: #008489;
 }
 

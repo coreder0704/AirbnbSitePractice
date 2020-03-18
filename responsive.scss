@@ -310,6 +310,33 @@
                             }/* -----------#section3-image------------- */
                         }
                     }
+
+                    .section4 {
+                        .contents-wrapper {
+                            width: 100%;
+
+                            .row {
+                                width: 100%;
+                                margin: 0 auto;
+                                
+                                .col-md-4 {
+                                    
+                                    .box {
+                                        
+                                        h3 {
+                                            font-size: 40px;
+                                        }
+        
+                                        p{
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
                 }
 
 
