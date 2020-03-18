@@ -511,6 +511,10 @@ main .container-wrapper .container .section3 .contents-wrapper #section3-image .
   color: #484848;
 }
 
+main .container-wrapper .container .section4 .contents-wrapper {
+  width: 100%;
+}
+
 main .container-wrapper .container .section4 .contents-wrapper .row {
   overflow: hidden;
   width: 100%;
@@ -559,8 +563,7 @@ main .container-wrapper .container .section5 .contents-wrapper .row .col-lg-6 {
 }
 
 main .container-wrapper .container .section5 .contents-wrapper .row .col-lg-6 .box {
-  margin-right: 0 !important;
-  margin-left: 15% !important;
+  margin: 0 40px;
   width: 90%;
   margin: 0 20px;
   /*@include checkborder();*/

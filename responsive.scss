@@ -336,6 +336,30 @@
                         }
                     }
 
+                    .section5 {
+                        .contents-wrapper {
+                            width: 100%;
+
+                            .row {
+        
+                                .col-lg-6 {
+                                    margin: 0;
+                                    padding: 0;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    
+                                    /*@include checkborder();*/
+            
+                                    .box {
+                                        width: 540px;
+                                        margin-bottom: 50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
 
                 }
 

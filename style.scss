@@ -414,6 +414,8 @@ main {
 
             .section4 {
                 .contents-wrapper {
+                    width: 100%;
+
                     .row {
                         @include extrusionPrevention();
                         width: 100%;
@@ -461,8 +463,7 @@ main {
                             /*@include checkborder();*/
     
                             .box {
-                                margin-right: 0 !important;
-                                margin-left: 15% !important;
+                                margin: 0 40px;
                                 @include row-inner(90%);
                                 /*@include checkborder();*/
                                 h3 {

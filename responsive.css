@@ -322,6 +322,27 @@
   main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 .box p {
     font-size: 14px;
   }
+  main .container-wrapper .container section .section5 .contents-wrapper {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section5 .contents-wrapper .row .col-lg-6 {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /*@include checkborder();*/
+  }
+  main .container-wrapper .container section .section5 .contents-wrapper .row .col-lg-6 .box {
+    width: 540px;
+    margin-bottom: 50px;
+  }
   /* ----------- End of main ------------ */
 }
 
