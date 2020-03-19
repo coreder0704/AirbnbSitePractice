@@ -635,25 +635,27 @@ main .container-wrapper .container .section6 .contents-wrapper .details .row .co
 }
 
 main .container-wrapper .container .section7 {
-  /* @include checkborder(); */
   width: 1440px;
   /* width of .container */
   margin: auto;
 }
 
 main .container-wrapper .container .section7 .box {
+  width: 100%;
+  margin: 0 auto;
   position: relative;
 }
 
 main .container-wrapper .container .section7 .box .image img {
   width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 main .container-wrapper .container .section7 .box .image-inner {
-  /* <--- .col-lg-6 */
   position: absolute;
   top: 0;
+  margin-left: 150px;
   /* centering .inner-box */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -668,8 +670,7 @@ main .container-wrapper .container .section7 .box .image-inner {
 }
 
 main .container-wrapper .container .section7 .box .image-inner .inner-box {
-  margin-left: 20%;
-  width: 100%;
+  width: 430px;
 }
 
 main .container-wrapper .container .section7 .box .image-inner .inner-box h2 {
@@ -677,7 +678,6 @@ main .container-wrapper .container .section7 .box .image-inner .inner-box h2 {
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 8%;
-  padding-right: 20%;
 }
 
 main .container-wrapper .container .section7 .box .image-inner .inner-box .button {
