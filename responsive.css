@@ -8,8 +8,43 @@
   body {
     margin: 0;
   }
-  header {
+  .header-wrapper {
     display: none;
+  }
+  .header-higher {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+  .header-higher .fluid-container {
+    height: 47px;
+    padding: 5px 80px 0 10px;
+    margin-bottom: 1px;
+  }
+  .header-higher .fluid-container .row .nav .nav-item .menu {
+    line-height: 40px !important;
+  }
+  .header-lower {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+  }
+  .header-lower .fluid-container {
+    height: auto;
+    padding: 10px 0;
+  }
+  .header-lower .fluid-container .row .nav .nav-item .menu {
+    line-height: 40px !important;
+  }
+  .header-lower .fluid-container .row .nav .nav-item .nav-link a .money {
+    font-size: 18px;
   }
   main {
     /* -----------End of container-wrapper-------------- */
