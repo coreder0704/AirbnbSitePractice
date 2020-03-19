@@ -701,20 +701,30 @@ footer .footer-container {
   margin: auto;
 }
 
-.col-lg-3 .footer-title h3 {
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row .col-md {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row .col-md .footer-title h3 {
   font-size: 14px;
   font-weight: bold;
 }
 
-.col-lg-3 ul {
+.row .col-md ul {
   font-size: 14px;
 }
 
-.col-lg-3 ul li a {
+.row .col-md ul li a {
   color: #767676;
 }
 
-.col-lg-3 ul li span {
+.row .col-md ul li span {
   font-size: 12px;
   color: #ffffff;
   background-color: #008489;
@@ -731,35 +741,35 @@ footer .footer-container {
   padding: 20px 0;
 }
 
-.footer-bottom .col-lg-6 {
+.footer-bottom .box-l {
   padding: 0;
 }
 
-.footer-bottom .col-lg-6 .box {
+.footer-bottom .box-l .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-bottom .col-lg-6 .box .icon {
+.footer-bottom .box-l .box .icon {
   font-size: 10px;
 }
 
-.footer-bottom .col-lg-6 .box .icon i {
+.footer-bottom .box-l .box .icon i {
   color: #767676;
   padding-left: 0;
   padding-right: 15px;
 }
 
-.footer-bottom .col-lg-6 .box .text {
+.footer-bottom .box-l .box .text {
   font-size: 14px;
 }
 
-.footer-bottom .col-lg-6 .box .text ul li a {
+.footer-bottom .box-l .box .text ul li a {
   color: #767676;
 }
 
-.footer-bottom .col-lg-6 .three-icons {
+.footer-bottom .box-r .three-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -768,11 +778,11 @@ footer .footer-container {
           justify-content: flex-end;
 }
 
-.footer-bottom .col-lg-6 .three-icons a {
+.footer-bottom .box-r .three-icons a {
   margin-right: 20px;
 }
 
-.footer-bottom .col-lg-6 .three-icons a i {
+.footer-bottom .box-r .three-icons a i {
   color: #767676;
   font-size: 24px;
 }
