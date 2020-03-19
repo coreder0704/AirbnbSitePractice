@@ -49,11 +49,12 @@
     margin-bottom: 0;
   }
   main section .top-wrapper .top-image .top-modal .row .title {
-    margin: 0 auto;
+    width: 100%;
     padding-bottom: 20px;
   }
   main section .top-wrapper .top-image .top-modal .row .title h1 {
     color: #ffffff;
+    margin: 0 120px;
   }
   main section .top-wrapper .top-image .top-modal .row .box {
     width: 100%;
@@ -390,6 +391,41 @@
   }
   main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .more-info {
     display: none;
+  }
+  main .container-wrapper .container section .section7 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section7 .box .image img {
+    width: 100%;
+    height: auto;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner {
+    margin-left: 300px;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box {
+    width: 330px;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box h2 {
+    font-size: 40px;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box .button {
+    border-radius: 5px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box .button a {
+    color: #484848;
+    font-weight: bold;
   }
   /* ----------- End of main ------------ */
 }
