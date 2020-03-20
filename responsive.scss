@@ -24,7 +24,7 @@
     }
 
     .header-higher{
-        display: block;
+        display: none;
         position: fixed;
         z-index: $header-z;
         top: 0;
@@ -49,7 +49,7 @@
     }
 
     .header-lower {
-        display: block;
+        display: none;
         position: fixed;
         z-index: $header-z;
         bottom: 0;
