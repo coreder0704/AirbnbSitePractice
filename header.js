@@ -14,7 +14,7 @@ $(function(){
     $(window).scroll(function(){
         //スクロールが表示位置の値より大きい場合ヘッダー表示
         //スクロールがhide位置より大きい場合ヘッダーhide
-        if($(this).scrollTop() > showPoint.top){
+        if($(this).scrollTop() > showPoint.top && $(this).scrollTop() < hidePoint.top){
             headerHigher.fadeIn();
             headerLower.fadeIn();
         } else {
