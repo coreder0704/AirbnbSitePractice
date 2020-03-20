@@ -230,6 +230,10 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row {
+    width: 700px;
+    padding: 0;
+  }
   main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message {
     width: 272px;
     padding: 0;
@@ -463,6 +467,9 @@
     font-weight: bold;
   }
   /* ----------- End of main ------------ */
+  footer .footer-container .footer-bottom .box-l {
+    padding-left: 20px;
+  }
 }
 
 /* ----------End of laptop size------------ */

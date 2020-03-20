@@ -220,6 +220,8 @@
                             align-items: center;
 
                             .row {
+                                width: 700px;
+                                padding: 0;
 
                                 .dennis-message {
                                     width: 272px;
@@ -535,6 +537,17 @@
             }/* ------------End of container------------- */
         }/* -----------End of container-wrapper-------------- */
     }/* ----------- End of main ------------ */
+
+    footer {
+        .footer-container {
+            .footer-bottom {
+                .box-l {
+                    padding-left: 20px;
+                }
+            }
+        }
+
+    }
 
 }/* ----------End of laptop size------------ */
 
