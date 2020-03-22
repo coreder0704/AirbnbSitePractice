@@ -551,3 +551,12 @@
 
 }/* ----------End of laptop size------------ */
 
+@media (min-width:1128px) {
+    .header-higher {
+        display: none !important;
+    }
+
+    .header-lower {
+        display: none !important;
+    }
+}
