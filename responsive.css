@@ -12,6 +12,12 @@
     margin: 0 20px !important;
     line-height: 36px;
   }
+  main section .top-wrapper .top-image .top-modal .row .box .item {
+    width: 100%;
+  }
+  main section .top-wrapper .top-image .top-modal .row .box .item #income {
+    font-size: 18px;
+  }
 }
 
 /* ----------End of tablet size------------ */

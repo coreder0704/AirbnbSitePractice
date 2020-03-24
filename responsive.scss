@@ -28,6 +28,16 @@
                                     line-height: 36px;
                                 }
                             }
+
+                            .box {
+                                .item {
+                                    width: 100%; !important
+
+                                    #income {
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
