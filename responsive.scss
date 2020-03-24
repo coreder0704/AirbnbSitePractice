@@ -31,10 +31,17 @@
 
                             .box {
                                 .item {
-                                    width: 100%; !important
+                                    width: 100% !important;
 
                                     #income {
                                         font-size: 18px;
+                                    }
+                                    p {
+                                        font-size: 14px;
+
+                                        .modal-money {
+                                            font-size: 32px;
+                                        }
                                     }
                                 }
                             }

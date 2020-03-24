@@ -13,10 +13,16 @@
     line-height: 36px;
   }
   main section .top-wrapper .top-image .top-modal .row .box .item {
-    width: 100%;
+    width: 100% !important;
   }
   main section .top-wrapper .top-image .top-modal .row .box .item #income {
     font-size: 18px;
+  }
+  main section .top-wrapper .top-image .top-modal .row .box .item p {
+    font-size: 14px;
+  }
+  main section .top-wrapper .top-image .top-modal .row .box .item p .modal-money {
+    font-size: 32px;
   }
 }
 
