@@ -168,6 +168,50 @@
                             }
                         }
                     }
+
+                    div {
+                        .section-title {
+                            padding-top: 16px !important;
+                            padding: {
+                                top: 16px !important;
+                                left: 15px !important;
+                                right: 15px !important;
+                            }
+
+                            h2 {
+                                padding: 0;
+                                text-align: left !important;
+
+                                &:after {/* over line code */
+                                    left: 26px !important;
+                                    margin-left: 15px;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .section2 {
+                        .contents-wrapper {
+                            padding: 0 !important;
+
+                            .row {
+                                padding: 0 !important;
+
+                                .col-xl {
+                                    width: 100% !important;
+                                }
+        
+                                .col-lg-12 {
+                                    .image {
+                                        width: 100% !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    
                 }
             }
         }
@@ -335,7 +379,6 @@
                 }/* --------End of section---------- */
 
                 section {
-                    @include section-spacing(16px 0 0 0);
                     @include extrusionPrevention();
                     @include section-spacing(30px 0);
                     margin: 20px 0;
