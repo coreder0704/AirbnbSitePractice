@@ -2,7 +2,7 @@
 /* ----------Start of mobile-L size------------ */
 /* ----------End of mobile-L size------------ */
 /* ----------Start of tablet size------------ */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   main section .top-wrapper .top-image .img {
     min-width: 600px;
     height: 150px !important;
@@ -38,11 +38,90 @@
   main .container-wrapper .container section .top-message-wrapper .top-message .row .message p {
     line-height: 1.375em;
   }
+  main .container-wrapper .container section .section1 .middle-message {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title {
+    padding-top: 16px !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title h2 {
+    padding: 0;
+    text-align: left !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title h2:after {
+    /* over line code */
+    left: 26px !important;
+    margin-left: 15px;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message {
+    padding: 0;
+    margin: 0 15px;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message .icon {
+    margin-top: 0 !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message .box {
+    margin: 0 !important;
+    padding-bottom: 20px !important;
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message .box p {
+    line-height: 1.375em;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper {
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row {
+    width: 100%;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .icon .fa-quote-left {
+    font-size: 18px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .comment p {
+    font-size: 18px;
+    line-height: 1.44444em !important;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .dennis-description p {
+    font-size: 14px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .button {
+    padding: 10px 20px;
+    border: 2px #484848 solid;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image {
+    padding: 0 !important;
+    margin-bottom: 20px;
+    width: 100% !important;
+    height: auto;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image img {
+    width: 100%;
+  }
 }
 
 /* ----------End of tablet size------------ */
 /* ----------Start of labtop size------------ */
-@media (max-width: 1127px) {
+@media screen and (max-width: 1127px) {
   body {
     margin: 0;
   }
@@ -513,7 +592,7 @@
 }
 
 /* ----------End of laptop size------------ */
-@media (min-width: 1128px) {
+@media screen and (min-width: 1128px) {
   .header-higher {
     display: none !important;
   }

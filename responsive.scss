@@ -2,13 +2,13 @@
 
 
 /* ----------Start of mobile-L size------------ */
-@media(max-width:425px) {
+@media screen and (max-width:425px) {
 
 }/* ----------End of mobile-L size------------ */
 
 
 /* ----------Start of tablet size------------ */
-@media(max-width:768px) {
+@media screen and (max-width: 768px) {
     main {
         section {
             .top-wrapper {
@@ -73,13 +73,109 @@
                         }
                     }
                 }/* --------End of section---------- */
+
+                section{
+                    .section1 {
+                        .middle-message {
+                            width: 100%;
+
+                            .row {
+                                width: 100%;
+
+                                .section-title {
+                                    padding-top: 16px !important;
+
+                                    h2 {
+                                        padding: 0;
+                                        text-align: left !important;
+                                    }
+
+                                    h2:after {/* over line code */
+                                        left: 26px !important;
+                                        margin-left: 15px;
+                                    }
+                                }
+
+                                .three-message {
+                                    padding: 0;
+                                    margin: 0 15px;
+                                    
+                                    .icon {
+                                        margin-top: 0 !important;
+                                    }
+
+                                    .box {
+                                        margin: 0 !important;
+                                        padding-bottom: 20px !important;
+                                        width: 100% !important;
+
+                                        p {
+                                            line-height: 1.375em;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .dennis-wrapper {
+                            width: 100% !important;
+
+                            .row {
+                                width: 100%;
+                                flex-direction: column-reverse !important;
+                                justify-content: center;
+                                align-items: center;
+
+                                .dennis-message {
+                                    width: 100% !important;
+                                    margin: 0 !important;
+
+                                    .icon {
+                                        .fa-quote-left {
+                                            font-size: 18px;
+                                        }
+                                    }
+                                    .comment {
+                                        p {
+                                            font-size: 18px;
+                                            line-height: 1.44444em !important;
+                                        }
+                                    }
+                                    .dennis-description {
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                    .button {
+                                        padding: 10px 20px;
+                                            border: 2px #484848 solid;
+                                            font-weight: bold;
+                                            display: inline-block;
+                                            border-radius: 5px;
+                                    }
+                                }
+            
+                                .dennis-image {
+                                    padding: 0 !important;
+                                    margin-bottom: 20px;
+                                    width: 100% !important;
+                                    height: auto;
+
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 }/* ----------End of tablet size------------ */
 
 /* ----------Start of labtop size------------ */
-@media(max-width:1127px) {
+@media screen and (max-width:1127px) {
     body {
         margin: 0;
     }
@@ -619,7 +715,7 @@
 
 }/* ----------End of laptop size------------ */
 
-@media (min-width:1128px) {
+@media screen and (min-width:1128px) {
     .header-higher {
         display: none !important;
     }
