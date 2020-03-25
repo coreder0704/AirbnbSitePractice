@@ -24,6 +24,20 @@
   main section .top-wrapper .top-image .top-modal .row .box .item p .modal-money {
     font-size: 32px;
   }
+  main .container-wrapper .container {
+    padding: 0;
+    /* --------End of section---------- */
+  }
+  main .container-wrapper .container section {
+    margin: 40px 0 !important;
+    padding: 0 !important;
+  }
+  main .container-wrapper .container section .top-message-wrapper .top-message .row .message {
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .top-message-wrapper .top-message .row .message p {
+    line-height: 1.375em;
+  }
 }
 
 /* ----------End of tablet size------------ */
@@ -144,6 +158,8 @@
   }
   main .container-wrapper .container section .top-message-wrapper .top-message .row .message {
     width: 536px;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 40px;
   }
   main .container-wrapper .container section {

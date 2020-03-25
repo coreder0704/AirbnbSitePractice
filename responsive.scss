@@ -50,6 +50,31 @@
                 }
             }
         }
+
+        .container-wrapper {
+            .container {
+                padding: 0;
+
+                section {
+                    margin: 40px 0 !important;
+                    padding: 0 !important;
+
+                    .top-message-wrapper {
+                        .top-message {
+                            .row {
+                                .message {
+                                    width: 100% !important;
+
+                                    p {
+                                        line-height: 1.375em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }/* --------End of section---------- */
+            }
+        }
     }
 }/* ----------End of tablet size------------ */
 
@@ -204,6 +229,8 @@
 
                                 .message {
                                     width: 536px;
+                                    padding-left: 0;
+                                    padding-right: 0;
                                     padding-bottom: 40px;
                                 }
                             }
