@@ -457,6 +457,7 @@
   }
   main .container-wrapper .container section .section3 .contents-wrapper {
     width: 100%;
+    padding: 0;
     /* -----------#section3-image------------- */
   }
   main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 {
