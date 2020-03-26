@@ -1,5 +1,6 @@
 $link-color: #008489;
 $icon-color: #008489;
+$sectionTitleColor: #333333;
 $header-z:10;
 $max-width:1440px;
 
@@ -22,6 +23,7 @@ $max-width:1440px;
 
 @mixin section-title($fz) {
     h2 {
+        color:$sectionTitleColor !important;
         width: 100%;
         font-size: $fz;
         font-weight: bold;
