@@ -117,6 +117,14 @@
   main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image img {
     width: 100%;
   }
+  main .container-wrapper .container section div {
+    /* .contents-wrapper {
+                            margin: {
+                                left: 15px !important;
+                                right: 15px !important;
+                            }
+                        } */
+  }
   main .container-wrapper .container section div .section-title {
     padding-top: 16px !important;
     padding-top: 16px !important;
@@ -143,6 +151,50 @@
   }
   main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg-12 .image {
     width: 100% !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper {
+    /* -----------#section3-image------------- */
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 15px !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 {
+    width: 100%;
+    display: block !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 .box {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 .box p {
+    line-height: 1.375em;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image {
+    width: 100% !important;
+    margin: 0 auto !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 {
+    margin-bottom: 20px !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .image {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box {
+    width: 100%;
+    margin: 0 !important;
   }
 }
 
@@ -478,21 +530,21 @@
   main .container-wrapper .container section .section3 .contents-wrapper #section3-image {
     width: 700px;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .image img {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .image img {
     width: 100%;
     height: auto;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .icon .fa-quote-left {
-    font-size: 18px;
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .icon .fa-quote-left {
+    font-size: 24px;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .comment p {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .comment p {
     font-size: 18px;
     line-height: 1.4444em !important;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .dennis-description p {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .dennis-description p {
     font-size: 14px;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .button {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .button {
     padding: 10px 20px;
   }
   main .container-wrapper .container section .section4 .contents-wrapper {

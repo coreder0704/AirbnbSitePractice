@@ -187,8 +187,14 @@
                                     margin-left: 15px;
                                 }
                             }
-
                         }
+
+                        /* .contents-wrapper {
+                            margin: {
+                                left: 15px !important;
+                                right: 15px !important;
+                            }
+                        } */
                     }
 
                     .section2 {
@@ -211,7 +217,55 @@
                         }
                     }
 
+                    .section3 {
+                        .contents-wrapper {
+                            .row {
+                                width: 100% !important;
+                                margin: 0 auto !important;
+                                padding: 0 15px !important;
+        
+                                .col-xl-4 {
+                                    width: 100%;
+                                    display: block !important;
 
+                                    .box {
+                                        width: 100% !important;
+                                        margin: 0 auto !important;
+
+                                        p {
+                                            line-height: 1.375em;
+                                        }
+                                    }
+                                }
+        
+                            }
+
+                            #section3-image {
+                                width: 100% !important;
+                                margin: 0 auto !important;
+                                flex-direction: column !important;
+                                justify-content: center;
+                                align-items: center;
+
+                                .col-md-6{
+                                    margin-bottom: 20px !important;
+
+                                    .image {
+                                        margin : {
+                                            top: 40px;
+                                            bottom: 10px;
+                                        }
+                                    }
+        
+                                    .box {
+                                        width: 100%;
+                                        margin: 0 !important;
+                                    }
+                                }
+
+                            }/* -----------#section3-image------------- */
+                        }
+                    }
                 }
             }
         }
@@ -540,7 +594,7 @@
                             #section3-image {
                                 width: 700px;
 
-                                .col-6{
+                                .col-md-6{
         
                                     .image {
         
@@ -555,7 +609,7 @@
         
                                         .icon {
                                             .fa-quote-left {
-                                                font-size: 18px;
+                                                font-size: 24px;
                                             }
                                         }
                                         .comment {
