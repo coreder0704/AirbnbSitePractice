@@ -3,6 +3,7 @@
 /* ----------End of mobile-L size------------ */
 /* ----------Start of tablet size------------ */
 @media screen and (max-width: 768px) {
+  /* TODO:create mobile header */
   main section .top-wrapper .top-image .img {
     min-width: 600px;
     height: 150px !important;
@@ -117,14 +118,6 @@
   main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image img {
     width: 100%;
   }
-  main .container-wrapper .container section div {
-    /* .contents-wrapper {
-                            margin: {
-                                left: 15px !important;
-                                right: 15px !important;
-                            }
-                        } */
-  }
   main .container-wrapper .container section div .section-title {
     padding-top: 16px !important;
     padding-top: 16px !important;
@@ -139,6 +132,10 @@
     /* over line code */
     left: 26px !important;
     margin-left: 15px;
+  }
+  main .container-wrapper .container section div .contents-wrapper {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
   main .container-wrapper .container section .section2 .contents-wrapper {
     padding: 0 !important;
@@ -158,7 +155,6 @@
   main .container-wrapper .container section .section3 .contents-wrapper .row {
     width: 100% !important;
     margin: 0 auto !important;
-    padding: 0 15px !important;
   }
   main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 {
     width: 100%;
@@ -198,13 +194,11 @@
   }
   main .container-wrapper .container section .section4 .contents-wrapper {
     width: 100%;
-    padding: 0 !important;
   }
   main .container-wrapper .container section .section4 .contents-wrapper .row {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 30px !important;
-    padding: 0 15px !important;
   }
   main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 {
     margin-bottom: 30px !important;
@@ -218,6 +212,17 @@
   }
   main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 .box p {
     margin-top: 0 !important;
+  }
+  main .container-wrapper .container section .section5 .contents-wrapper .row {
+    margin-bottom: 20px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  main .container-wrapper .container section .section5 .contents-wrapper .row .col-lg-6 .box {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 30px !important;
   }
 }
 

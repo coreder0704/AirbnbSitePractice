@@ -568,6 +568,9 @@ main .container-wrapper .container .section4 .contents-wrapper .row .col-md-4 .b
 }
 
 main .container-wrapper .container .section5 .contents-wrapper .row {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   /* end of .col-lg-6 */
 }
 

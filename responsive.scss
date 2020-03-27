@@ -9,6 +9,8 @@
 
 /* ----------Start of tablet size------------ */
 @media screen and (max-width: 768px) {
+    /* TODO:create mobile header */
+
     main {
         section {
             .top-wrapper {
@@ -189,12 +191,12 @@
                             }
                         }
 
-                        /* .contents-wrapper {
-                            margin: {
+                        .contents-wrapper {
+                            padding: {
                                 left: 15px !important;
                                 right: 15px !important;
                             }
-                        } */
+                        }
                     }
 
                     .section2 {
@@ -222,7 +224,6 @@
                             .row {
                                 width: 100% !important;
                                 margin: 0 auto !important;
-                                padding: 0 15px !important;
         
                                 .col-xl-4 {
                                     width: 100%;
@@ -270,13 +271,11 @@
                     .section4 {
                         .contents-wrapper {
                             width: 100%;
-                            padding: 0 !important;
 
                             .row {
                                 width: 100%;
                                 margin: 0 auto;
                                 margin-bottom: 30px !important;
-                                padding: 0 15px !important;
                                 
                                 .col-md-4 {
                                     margin-bottom: 30px !important;
@@ -291,6 +290,30 @@
         
                                         p{
                                             margin-top: 0 !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .section5 {
+                        .contents-wrapper {
+                            .row {
+                                margin-bottom: 20px !important;
+
+                                padding: {
+                                    left: 0 !important;
+                                    right: 0 !important;
+                                }
+
+                                .col-lg-6 {
+                                    .box {
+                                        width: 100% !important;
+                                        margin: {
+                                            left: 0 !important;
+                                            right: 0 !important;
+                                            bottom: 30px !important;
                                         }
                                     }
                                 }
