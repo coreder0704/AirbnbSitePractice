@@ -635,7 +635,7 @@ main {
 }
 
 footer {
-    padding: 40px 0;
+    padding-top: 40px;
     .footer-container {
         max-width: 1080px !important;
         margin: auto;
@@ -678,7 +678,8 @@ footer {
 .footer-bottom {
     display: flex;
     border-top: 1px solid #f1f1f1;
-    padding: 20px 0;
+    padding-top: 20p;
+    padding-bottom: 10px;
 
     .box-l {
         padding: 0;

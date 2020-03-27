@@ -425,6 +425,20 @@
             }
         }
     }
+
+    footer {
+        .footer-container {
+            .footer-section {
+                display: none !important;
+            }
+            .footer-bottom {
+                .box-r {
+                    display: none;
+                }
+            }
+        }
+
+    }
 }/* ----------End of tablet size------------ */
 
 /* ----------Start of labtop size------------ */

@@ -711,7 +711,7 @@ main .container-wrapper .container .section7 .box .image-inner .inner-box .butto
 }
 
 footer {
-  padding: 40px 0;
+  padding-top: 40px;
 }
 
 footer .footer-container {
@@ -756,7 +756,8 @@ footer .footer-container {
   display: -ms-flexbox;
   display: flex;
   border-top: 1px solid #f1f1f1;
-  padding: 20px 0;
+  padding-top: 20p;
+  padding-bottom: 10px;
 }
 
 .footer-bottom .box-l {

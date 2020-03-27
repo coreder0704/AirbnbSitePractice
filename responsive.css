@@ -299,6 +299,12 @@
   main .container-wrapper .container section .section7 .box .image-inner .inner-box h2 {
     font-size: 38px !important;
   }
+  footer .footer-container .footer-section {
+    display: none !important;
+  }
+  footer .footer-container .footer-bottom .box-r {
+    display: none;
+  }
 }
 
 /* ----------End of tablet size------------ */
