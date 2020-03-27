@@ -264,6 +264,41 @@
   main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text .info-name {
     margin-top: 10px !important;
   }
+  main .container-wrapper .container section .section7 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section7 .box .image {
+    position: relative;
+    height: 375px !important;
+  }
+  main .container-wrapper .container section .section7 .box .image img {
+    width: auto !important;
+    position: absolute !important;
+    left: -330px;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner {
+    margin-top: 80px;
+    margin-left: 40px !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: start !important;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box {
+    max-width: 330px;
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box h2 {
+    font-size: 38px !important;
+  }
 }
 
 /* ----------End of tablet size------------ */

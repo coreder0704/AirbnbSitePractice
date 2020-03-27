@@ -383,6 +383,44 @@
                         }
                         
                     }
+
+                    .section7 {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+        
+                        .box {
+        
+                            .image {
+                                position: relative;
+                                height: 375px !important;
+
+                                img {
+                                    width: auto !important;
+                                    position: absolute !important;
+                                    left: -330px;
+                                }
+                            }
+        
+                            .image-inner {
+                                margin-top: 80px;
+                                margin-left: 40px !important;
+
+                                align-items: start !important;
+        
+                                .inner-box {
+                                    max-width: 330px;
+                                    width: 100% !important;
+                                    
+                                    h2 {
+                                        font-size: 38px !important;
+                                    }
+        
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
