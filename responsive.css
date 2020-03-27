@@ -233,7 +233,7 @@
     width: 100% !important;
   }
   main .container-wrapper .container section .section6 .contents-wrapper .details .row {
-    width: 100%;
+    width: 100% !important;
   }
   main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md {
     height: 76px !important;
