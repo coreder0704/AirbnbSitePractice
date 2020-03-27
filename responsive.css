@@ -224,6 +224,46 @@
     margin-right: 0 !important;
     margin-bottom: 30px !important;
   }
+  main .container-wrapper .container section .section6 .contents-wrapper {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .question-list .row .col-lg-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md {
+    height: 76px !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    height: 100%;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .img {
+    width: 76px;
+    overflow: hidden !important;
+    position: relative;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .img img {
+    width: auto;
+    height: 76px;
+    position: absolute;
+    left: -12px;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text {
+    padding-left: 5px;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text h3 {
+    padding-top: 10px !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text .info-name {
+    margin-top: 10px !important;
+  }
 }
 
 /* ----------End of tablet size------------ */
@@ -649,14 +689,14 @@
     padding: 0;
     margin: 4px 10px;
   }
-  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a h3 {
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text h3 {
     font-size: 14px;
     padding-left: 10px;
   }
-  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .info-name {
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text .info-name {
     padding-left: 10px;
   }
-  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .more-info {
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text .more-info {
     display: none;
   }
   main .container-wrapper .container section .section7 {
