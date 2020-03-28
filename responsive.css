@@ -351,6 +351,9 @@
   footer .footer-container .footer-bottom .box-r {
     display: none;
   }
+  footer .copy-link {
+    display: none;
+  }
 }
 
 /* ----------End of tablet size------------ */
