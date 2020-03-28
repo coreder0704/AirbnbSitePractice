@@ -35,6 +35,13 @@ header {
     padding:0 80px 0 0;
     margin-bottom: 1px;
 }
+
+.nav {
+    .dot {
+        display: none;
+    }
+}
+
 .nav-item {
     .menu {
         font-size: 14px;
@@ -76,6 +83,10 @@ header {
 
 .header-lower {
     display: none;
+    
+    #header-money2 {
+        display: none;
+    }
 }
 
 main {

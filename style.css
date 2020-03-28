@@ -35,6 +35,10 @@ header {
   margin-bottom: 1px;
 }
 
+.nav .dot {
+  display: none;
+}
+
 .nav-item .menu {
   font-size: 14px;
   color: #484848;
@@ -85,6 +89,10 @@ header {
 }
 
 .header-lower {
+  display: none;
+}
+
+.header-lower #header-money2 {
   display: none;
 }
 
