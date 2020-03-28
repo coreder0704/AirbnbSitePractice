@@ -177,7 +177,7 @@ main .container-wrapper .container section .top-message-wrapper .top-message .ro
   width: 534px;
   padding-right: 80px;
   padding-left: 8px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
   margin: 0 auto;
 }
 
