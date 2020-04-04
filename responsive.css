@@ -2,9 +2,363 @@
 /* ----------Start of mobile-L size------------ */
 /* ----------End of mobile-L size------------ */
 /* ----------Start of tablet size------------ */
+@media screen and (max-width: 768px) {
+  /* TODO:create mobile header */
+  .header-higher .nav {
+    padding: 0 20px;
+  }
+  .header-higher .nav .dot {
+    display: inline-block !important;
+    width: 8px;
+    line-height: 40px;
+    margin-right: 4px;
+    text-align: center;
+  }
+  .header-higher .nav .nav-item .menu {
+    margin: 0 !important;
+  }
+  .header-lower .fluid-container .row {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .header-lower .fluid-container .row #header-money1 {
+    display: none;
+  }
+  .header-lower .fluid-container .row #header-money2 {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 20px;
+  }
+  .header-lower .fluid-container .row #header-money2 .money {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .header-lower .fluid-container .row #header-money2 p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .header-lower .fluid-container .row .nav .nav-item .menu {
+    line-height: 40px !important;
+  }
+  .header-lower .fluid-container .row .nav .nav-item .nav-link a .money {
+    font-size: 18px;
+  }
+  main section .top-wrapper .top-image .img {
+    min-width: 600px;
+    height: 150px !important;
+  }
+  main section .top-wrapper .top-image .top-modal .row .title h1 {
+    font-size: 34px;
+    margin: 0 20px !important;
+    line-height: 36px;
+  }
+  main section .top-wrapper .top-image .top-modal .row .box .item {
+    width: 100% !important;
+  }
+  main section .top-wrapper .top-image .top-modal .row .box .item #income {
+    font-size: 18px;
+  }
+  main section .top-wrapper .top-image .top-modal .row .box .item p {
+    font-size: 14px;
+  }
+  main section .top-wrapper .top-image .top-modal .row .box .item p .modal-money {
+    font-size: 32px;
+  }
+  main .container-wrapper .container {
+    padding: 0;
+    /* --------End of section---------- */
+  }
+  main .container-wrapper .container section {
+    margin: 40px 0 !important;
+    padding: 0 !important;
+  }
+  main .container-wrapper .container section .top-message-wrapper .top-message .row .message {
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .top-message-wrapper .top-message .row .message p {
+    line-height: 1.375em;
+  }
+  main .container-wrapper .container section .section1 .middle-message {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title {
+    padding-top: 16px !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title h2 {
+    padding: 0;
+    text-align: left !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .section-title h2:after {
+    /* over line code */
+    left: 26px !important;
+    margin-left: 15px;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message {
+    padding: 0;
+    margin: 0 15px;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message .icon {
+    margin-top: 0 !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message .box {
+    margin: 0 !important;
+    padding-bottom: 20px !important;
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section1 .middle-message .row .three-message .box p {
+    line-height: 1.375em;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper {
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row {
+    width: 100%;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .icon .fa-quote-left {
+    font-size: 18px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .comment p {
+    font-size: 18px;
+    line-height: 1.44444em !important;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .dennis-description p {
+    font-size: 14px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-message .button {
+    padding: 10px 20px;
+    border: 2px #484848 solid;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image {
+    padding: 0 !important;
+    margin-bottom: 20px;
+    width: 100% !important;
+    height: auto;
+  }
+  main .container-wrapper .container section .section1 .dennis-wrapper .row .dennis-image img {
+    width: 100%;
+  }
+  main .container-wrapper .container section div .section-title {
+    padding-top: 16px !important;
+    padding-top: 16px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  main .container-wrapper .container section div .section-title h2 {
+    padding: 0;
+    text-align: left !important;
+  }
+  main .container-wrapper .container section div .section-title h2:after {
+    /* over line code */
+    left: 26px !important;
+    margin-left: 15px;
+  }
+  main .container-wrapper .container section div .contents-wrapper {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper {
+    padding: 0 !important;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row {
+    padding: 0 !important;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row .col-xl {
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section2 .contents-wrapper .row .col-lg-12 .image {
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper {
+    /* -----------#section3-image------------- */
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 {
+    width: 100%;
+    display: block !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 .box {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 .box p {
+    line-height: 1.375em;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image {
+    width: 100% !important;
+    margin: 0 auto !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 {
+    margin-bottom: 20px !important;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .image {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box {
+    width: 100%;
+    margin: 0 !important;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px !important;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 {
+    margin-bottom: 30px !important;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 .box {
+    margin: 0 !important;
+    text-align: left !important;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 .box h3 {
+    margin-bottom: 0px !important;
+  }
+  main .container-wrapper .container section .section4 .contents-wrapper .row .col-md-4 .box p {
+    margin-top: 0 !important;
+  }
+  main .container-wrapper .container section .section5 .contents-wrapper .row {
+    margin-bottom: 20px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  main .container-wrapper .container section .section5 .contents-wrapper .row .col-lg-6 .box {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 30px !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper {
+    width: 100%;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .question-list .row .col-lg-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row {
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md {
+    height: 76px !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    height: 100%;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .img {
+    width: 76px;
+    overflow: hidden !important;
+    position: relative;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .img img {
+    width: auto;
+    height: 76px;
+    position: absolute;
+    left: -12px;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text {
+    padding-left: 5px;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text h3 {
+    padding-top: 10px !important;
+  }
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text .info-name {
+    margin-top: 10px !important;
+  }
+  main .container-wrapper .container section .section7 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container-wrapper .container section .section7 .box .image {
+    position: relative;
+    height: 375px !important;
+  }
+  main .container-wrapper .container section .section7 .box .image img {
+    width: auto !important;
+    position: absolute !important;
+    left: -330px;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner {
+    margin-top: 80px;
+    margin-left: 40px !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: start !important;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box {
+    max-width: 330px;
+    width: 100% !important;
+  }
+  main .container-wrapper .container section .section7 .box .image-inner .inner-box h2 {
+    font-size: 38px !important;
+  }
+  footer .footer-container .footer-section {
+    display: none !important;
+  }
+  footer .footer-container .footer-bottom .box-r {
+    display: none;
+  }
+  footer .copy-link {
+    display: none;
+  }
+}
+
 /* ----------End of tablet size------------ */
 /* ----------Start of labtop size------------ */
-@media (max-width: 1127px) {
+@media screen and (max-width: 1127px) {
   body {
     margin: 0;
   }
@@ -20,8 +374,9 @@
     background-color: #fff;
   }
   .header-higher .fluid-container {
+    min-width: 300px;
     height: 47px;
-    padding: 5px 80px 0 10px;
+    padding: 5px 10px;
     margin-bottom: 1px;
   }
   .header-higher .fluid-container .row .nav .nav-item .menu {
@@ -65,7 +420,7 @@
   main section .top-wrapper .top-image .responsive-header {
     display: block;
     position: absolute;
-    top: 30px;
+    top: 10px;
     left: 15px;
   }
   main section .top-wrapper .top-image .responsive-header i {
@@ -120,15 +475,17 @@
   }
   main .container-wrapper .container section .top-message-wrapper .top-message .row .message {
     width: 536px;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 40px;
   }
   main .container-wrapper .container section {
-    padding: 16px 0 0 0;
     overflow: hidden;
     padding: 30px 0;
     margin: 20px 0;
   }
   main .container-wrapper .container section .section-title h2 {
+    color: #333333 !important;
     width: 100%;
     font-size: 40px;
     font-weight: bold;
@@ -169,6 +526,7 @@
     width: 100%;
   }
   main .container-wrapper .container section .section1 .middle-message .row .section-title h2 {
+    color: #333333 !important;
     width: 100%;
     font-size: 40px;
     font-weight: bold;
@@ -312,6 +670,7 @@
   }
   main .container-wrapper .container section .section3 .contents-wrapper {
     width: 100%;
+    padding: 0;
     /* -----------#section3-image------------- */
   }
   main .container-wrapper .container section .section3 .contents-wrapper .row .col-xl-4 {
@@ -332,21 +691,21 @@
   main .container-wrapper .container section .section3 .contents-wrapper #section3-image {
     width: 700px;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .image img {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .image img {
     width: 100%;
     height: auto;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .icon .fa-quote-left {
-    font-size: 18px;
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .icon .fa-quote-left {
+    font-size: 24px;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .comment p {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .comment p {
     font-size: 18px;
     line-height: 1.4444em !important;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .dennis-description p {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .dennis-description p {
     font-size: 14px;
   }
-  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-6 .box .button {
+  main .container-wrapper .container section .section3 .contents-wrapper #section3-image .col-md-6 .box .button {
     padding: 10px 20px;
   }
   main .container-wrapper .container section .section4 .contents-wrapper {
@@ -421,14 +780,14 @@
     padding: 0;
     margin: 4px 10px;
   }
-  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a h3 {
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text h3 {
     font-size: 14px;
     padding-left: 10px;
   }
-  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .info-name {
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text .info-name {
     padding-left: 10px;
   }
-  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .more-info {
+  main .container-wrapper .container section .section6 .contents-wrapper .details .row .col-md a .text .more-info {
     display: none;
   }
   main .container-wrapper .container section .section7 {
@@ -473,7 +832,7 @@
 }
 
 /* ----------End of laptop size------------ */
-@media (min-width: 1128px) {
+@media screen and (min-width: 1128px) {
   .header-higher {
     display: none !important;
   }

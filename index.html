@@ -58,12 +58,21 @@
                         <li class="nav-item">
                             <a class="nav-link menu actived-page" href="#">概要</a>
                         </li>
+
+                        <p class="dot">・</p>
+
                         <li class="nav-item">
                             <a class="nav-link menu" href="#">準備</a>
                         </li>
+
+                        <p class="dot">・</p>
+
                         <li class="nav-item">
                             <a class="nav-link menu" href="#">安全</a>
                         </li>
+
+                        <p class="dot">・</p>
+
                         <li class="nav-item">
                             <a class="nav-link menu" href="#" tabindex="-1" aria-disabled="true">マネープラン</a>
                         </li>
@@ -75,8 +84,16 @@
         <div class="header-lower">
             <div class="fluid-container">
                 <div class="row">
+                    <div id="header-money2">
+                        <p class="money"><strong>¥xxxxxxxxx</strong></p>
+                        <p class="nav-link disable menu">
+                            予想月収
+                            <a href="#" class="far fa-question-circle"></a>
+                        </p>
+                    </div>
+
                     <ul class="nav justify-content-end col">
-                        <li class="nav-item">
+                        <li class="nav-item" id="header-money1">
                             <p class="nav-link disable menu">
                                 予想月収
                                 <a href="#" class="far fa-question-circle"></a>
@@ -115,10 +132,10 @@
                             <div class="box col-12">
                                 <div class="item row ">
     
-                                    <p class="col-12">どれくらいの収入が見込めるかチェック</p>
+                                    <p class="col-12" id="income">どれくらいの収入が見込めるかチェック</p>
                                     <p class="col-12">日本、東京都新宿区</p>
                                     <p class="col-7">まるまる貸切</p>
-                                    <p class="col-5">ゲスト4人</p>
+                                    <p class="col-md-5 col-12">ゲスト4人</p>
                                     <p class="col-lg-12"><strong class="modal-money">¥ XXX,XXX</strong>
                                         月あたり<a href="#" class="far fa-question-circle"></a></p>
                                     
@@ -162,29 +179,29 @@
                                 <div class="section-title col-lg-12 text-center">
                                     <h2>3ステップでホスティング</h2>
                                 </div>
-                                <div class="three-message col">
+                                <div class="three-message col-md">
                                     <div class="box">
                                         
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 icon">
                                             <i class="far fa-check-circle"></i>
                                         </div>
                                         <h3>無料でお部屋を掲載</h3>
                                         <p>共有のリビングルームから別荘に至るまで、どんなスペースでも登録料なしで共有しましょう。</p>
                                     </div>
                                 </div>
-                                <div class="three-message col">
+                                <div class="three-message col-md">
                                     <div class="box">
 
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 icon">
                                             <i class="far fa-check-circle"></i>
                                         </div>
                                         <h3>ホスティング方法を設定</h3>
                                         <p>スケジュール、料金、ゲストへの要件をご自身で選択しましょう。 お困りの際にはいつでもサポートいたします。</p>
                                     </div>
                                 </div>
-                                <div class="three-message col">
+                                <div class="three-message col-md">
                                     <div class="box">
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 icon">
                                             <i class="far fa-check-circle"></i>
                                         </div>
                                         <h3>はじめてのゲストが来ます！</h3>
@@ -289,13 +306,13 @@
                             </div>
 
                             <div class="row" id="section3-image">
-                                <div class="col-6">
+                                <div class="col-md-6">
                                     <div class="image">
                                         <img src="./image/boat-house-192990.jpg" alt="view">
                                     </div>
                                 </div>
 
-                                <div class="col-6">
+                                <div class="col-md-6">
                                     <div class="box">
                                         <div class="icon">
                                             <!-- The icon is here. -->
@@ -427,28 +444,40 @@
                                     <div class="col-md-12">
                                         <h3>ホスティングの詳細はこちら</h3>
                                     </div>
-                                    <div class="col-md image">
+                                    <div class="col-md col-12 image">
                                         <a href="#">
-                                            <img src="./image/couple-1030744_1920.jpg" alt="">
-                                            <h3>初期設定</h3>
-                                            <p class="info-name">ホスティング入門ガイド</p>
-                                            <p class="more-info">もっと詳しく</p>
+                                            <div class="img">
+                                                <img src="./image/couple-1030744_1920.jpg" alt="">                                                
+                                            </div>
+                                            <div class="text">
+                                                <h3>初期設定</h3>
+                                                <p class="info-name">ホスティング入門ガイド</p>
+                                                <p class="more-info">もっと詳しく</p>
+                                            </div>
                                         </a>
                                     </div>
-                                    <div class="col-md image">
+                                    <div class="col-md col-12 image">
                                         <a href="#">
-                                            <img src="./image/men-2425121_1920.jpg" alt="">
-                                            <h3>安全</h3>
-                                            <p class="info-name">ホストを守るAirbnbのしくみ</p>
-                                            <p class="more-info">もっと詳しく</p>
+                                            <div class="img">
+                                                <img src="./image/men-2425121_1920.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h3>安全</h3>
+                                                <p class="info-name">ホストを守るAirbnbのしくみ</p>
+                                                <p class="more-info">もっと詳しく</p>
+                                            </div>
                                         </a>
                                     </div>
-                                    <div class="col-md image">
+                                    <div class="col-md col-12 image">
                                         <a href="#">
-                                            <img src="./image/woman-1979272_1920.jpg" alt="">
-                                            <h3>マネープラン</h3>
-                                            <p class="info-name">Airbnbで収益を得るには</p>
-                                            <p class="more-info">もっと詳しく</p>
+                                            <div class="img">
+                                                <img src="./image/woman-1979272_1920.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h3>マネープラン</h3>
+                                                <p class="info-name">Airbnbで収益を得るには</p>
+                                                <p class="more-info">もっと詳しく</p>
+                                            </div>
                                         </a>
                                     </div>
                                 </div>
@@ -550,7 +579,7 @@
 
             
             <div class="footer-bottom">
-                <div class="box-l col-8">
+                <div class="box-l col-md-10">
                     <div class="box">
                         <div class="icon"><i class="fab fa-airbnb"></i></div>
                         <div class="text">
@@ -565,9 +594,11 @@
                                 </li>
                                 <li>
                                     <a href="#">© 2020 Airbnb, Inc. All rights reserved.</a>
-                                    <a href="">利用規約</a>・
-                                    <a href="">プライバシー</a>・
-                                    <a href="">サイトマップ</a>
+                                    <span class="copy-link">
+                                        <a href="#">利用規約</a>・
+                                        <a href="#">プライバシー</a>・
+                                        <a href="#">サイトマップ</a>
+                                    </span>
                                 </li>
                             </ul>
         
@@ -576,7 +607,7 @@
                     </div>
                 </div>
 
-                <div class="box-r col-4">
+                <div class="box-r col">
                     <div class="three-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
