@@ -96,6 +96,7 @@ header {
   display: none;
 }
 
+/* -------------- end of responsive header --------------*/
 main {
   overflow: hidden;
   /* ------------- end of .container-wrapper ------------- */
@@ -125,6 +126,15 @@ main .top-wrapper .top-image .img img {
 
 main .top-wrapper .top-image .responsive-header {
   display: none;
+}
+
+main .top-wrapper .top-image .accordion {
+  display: none;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
 }
 
 main .top-wrapper .top-image .top-modal {

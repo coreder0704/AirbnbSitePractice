@@ -419,6 +419,7 @@
   }
   main section .top-wrapper .top-image .responsive-header {
     display: block;
+    z-index: 1000;
     position: absolute;
     top: 10px;
     left: 15px;
@@ -426,6 +427,9 @@
   main section .top-wrapper .top-image .responsive-header i {
     color: #ffffff;
     font-size: 40px;
+  }
+  main section .top-wrapper .top-image .open {
+    display: block !important;
   }
   main section .top-wrapper .top-image .top-modal {
     position: static;

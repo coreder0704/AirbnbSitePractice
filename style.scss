@@ -88,6 +88,7 @@ header {
         display: none;
     }
 }
+/* -------------- end of responsive header --------------*/
 
 main {
     @include extrusionPrevention();
@@ -114,6 +115,15 @@ main {
 
             .responsive-header {
                 display: none;
+            }
+            .accordion {
+                display: none;
+                width: 100%;
+                height: 300px;
+                background-color: #fff;
+
+                position: fixed;
+                z-index: $accordion-z;
             }
 
             .top-modal {
