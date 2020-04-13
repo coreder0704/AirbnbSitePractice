@@ -602,7 +602,6 @@
     
                     .responsive-header {
                         display: block;
-                        z-index: $accordionBtn-z;
                         position: absolute;
                         top: 10px;
                         left: 15px;
@@ -612,8 +611,12 @@
                         }
                     }
 
-                    .open {
-                        display: block !important;
+                    .button__changeColor {
+                        z-index: $accordionBtn-z;
+
+                        i {
+                            color: $icon-color !important;
+                        }
                     }
                     
                     .top-modal {
