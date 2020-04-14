@@ -618,6 +618,28 @@
                             color: $icon-color !important;
                         }
                     }
+
+                    .accordion {
+                        .accordion__box {
+                            ul {
+                                li {
+                                    list-style: none;
+                                    a {
+                                        color: #484848;
+                                    }
+                                }
+
+                                .selected-page {
+                                    border-bottom: 1px solid #f0f0f0;
+
+                                    a {
+                                        color: $icon-color;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
                     
                     .top-modal {
                         position: static;

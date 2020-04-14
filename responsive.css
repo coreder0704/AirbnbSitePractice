@@ -433,6 +433,19 @@
   main section .top-wrapper .top-image .button__changeColor i {
     color: #008489 !important;
   }
+  main section .top-wrapper .top-image .accordion .accordion__box ul li {
+    list-style: none;
+  }
+  main section .top-wrapper .top-image .accordion .accordion__box ul li a {
+    color: #484848;
+  }
+  main section .top-wrapper .top-image .accordion .accordion__box ul .selected-page {
+    border-bottom: 1px solid #f0f0f0;
+  }
+  main section .top-wrapper .top-image .accordion .accordion__box ul .selected-page a {
+    color: #008489;
+    text-decoration: none;
+  }
   main section .top-wrapper .top-image .top-modal {
     position: static;
     width: 100%;

@@ -14,6 +14,8 @@ $(function(){
             $('.accordion').addClass('open').slideDown();
         }
         
+        // 縦スクロールを禁止する
+        // 下向き記号を180度回転させる
     });
     
 });
