@@ -609,6 +609,14 @@
                             color: #ffffff;
                             font-size: 40px;
                         }
+                        .rotate {
+                            margin-top: 20px;
+                            font-size: 20px;
+                            transition: transform .5s;
+                        }
+                        #rotate.on {
+                            transform: rotate(180deg);
+                        }
                     }
 
                     .button__changeColor {

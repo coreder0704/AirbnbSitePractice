@@ -427,6 +427,18 @@
     color: #ffffff;
     font-size: 40px;
   }
+  main section .top-wrapper .top-image .responsive-header .rotate {
+    margin-top: 20px;
+    font-size: 20px;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+  }
+  main section .top-wrapper .top-image .responsive-header #rotate.on {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
   main section .top-wrapper .top-image .button__changeColor {
     z-index: 1000;
   }
