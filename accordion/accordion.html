@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./accordion.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>new accordion</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <main>
-        <button class="accordion-btn m-3">MENU</button>
+
+        <div class="accordion-btn">MENU</div>
+
+        <div class="btn">
+            <button class="accordion-btn m-3" type="button">MENU</button>        
+        </div>
+
+        <div class="accordion">
+            <ul>
+                <li><a href="#">概要</a></li>
+                <li><a href="#">準備</a></li>
+                <li><a href="#">安全</a></li>
+                <li><a href="#">マネープラン</a></li>
+            </ul>
+        </div>
         <h1 class="text-center mt-5">Hello World !</h1>
     </main>
 

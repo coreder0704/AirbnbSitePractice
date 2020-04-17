@@ -1,0 +1,36 @@
+html, body {
+    width: 100%;
+    height: auto;
+}
+
+.accordion-btn {
+    display: inline-flex;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+
+    position: relative;
+    z-index: 100;
+}
+
+.accordion {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
+    ul {
+        padding: 50px 100px;
+
+        li {
+           list-style: none;
+           border-bottom: 1px solid #000;
+   
+           a {
+               color: #484848;
+           }
+       }
+    } 
+}
